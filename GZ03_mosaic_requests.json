@@ -1,0 +1,366 @@
+[
+  {
+    "site": "GZ03",
+    "telescope": "HSC",
+    "instrument_uid": null,
+    "target": "Mercury",
+    "ra_deg": 213.44108,
+    "dec_deg": -11.04905,
+    "window_utc": [
+      "2026-11-15T10:52:00Z",
+      "2026-11-15T11:05:00Z"
+    ],
+    "exposures": [
+      {
+        "for": "Mercury",
+        "filter": "h-alpha",
+        "exp_s": 0.1,
+        "count": 5
+      }
+    ],
+    "skynetSpec": {
+      "name": "StarGazer GZ03 Mercury",
+      "startAfter": "2026-11-15T10:52:00Z",
+      "cancelOn": "2026-11-15T11:05:00Z",
+      "target": {
+        "name": "Mercury",
+        "position": {
+          "positionType": "fixed",
+          "coordinates": {
+            "coordinateType": "equatorial",
+            "raDeg": 213.441085,
+            "decDeg": -11.049055
+          }
+        }
+      },
+      "opticalImagingConfiguration": {
+        "trackingMode": "sidereal",
+        "ditherStrategy": "none",
+        "temporalOffsetSec": 0.0,
+        "maxTiles": 1,
+        "tileOverlap": 0.0,
+        "minElevationDeg": 5.0,
+        "maxSunElevationDeg": -10.0,
+        "brightnessModel": {
+          "modelType": "source",
+          "isPointSource": true,
+          "magnitudeMag": -0.01,
+          "filterId": "V"
+        },
+        "saturationModel": {
+          "modelType": "source",
+          "isPointSource": true,
+          "magnitudeMag": -0.01,
+          "filterId": "V"
+        }
+      },
+      "requests": [
+        {
+          "requestType": "optical_imaging",
+          "order": 0,
+          "filterSpecifierIds": [
+            "h-alpha"
+          ],
+          "exposureTimeSec": 0.1,
+          "sampleCount": 5,
+          "allowBinning": true
+        }
+      ]
+    },
+    "preflight": {
+      "visible": {
+        "pass": true,
+        "detail": "13 usable min, 10:52-11:05 UTC"
+      },
+      "filters": {
+        "pass": true,
+        "detail": "Mercury:h-alpha"
+      },
+      "exposure": {
+        "pass": true,
+        "detail": "Mercury 0.1s"
+      },
+      "time_budget": {
+        "pass": true,
+        "detail": "needs 150s of 780s (overhead 30s/frame)"
+      },
+      "in_fov": {
+        "pass": true,
+        "detail": "extent 0.2x0.0' vs FOV 63.5x42.3'"
+      }
+    }
+  },
+  {
+    "site": "GZ03",
+    "telescope": "HSC",
+    "instrument_uid": null,
+    "target": "Venus",
+    "ra_deg": 200.34113,
+    "dec_deg": -10.00782,
+    "window_utc": [
+      "2026-11-15T10:30:00Z",
+      "2026-11-15T11:05:00Z"
+    ],
+    "exposures": [
+      {
+        "for": "Venus",
+        "filter": "h-alpha",
+        "exp_s": 0.1,
+        "count": 5
+      }
+    ],
+    "skynetSpec": {
+      "name": "StarGazer GZ03 Venus",
+      "startAfter": "2026-11-15T10:30:00Z",
+      "cancelOn": "2026-11-15T11:05:00Z",
+      "target": {
+        "name": "Venus",
+        "position": {
+          "positionType": "fixed",
+          "coordinates": {
+            "coordinateType": "equatorial",
+            "raDeg": 200.341131,
+            "decDeg": -10.007821
+          }
+        }
+      },
+      "opticalImagingConfiguration": {
+        "trackingMode": "sidereal",
+        "ditherStrategy": "none",
+        "temporalOffsetSec": 0.0,
+        "maxTiles": 1,
+        "tileOverlap": 0.0,
+        "minElevationDeg": 5.0,
+        "maxSunElevationDeg": -10.0,
+        "brightnessModel": {
+          "modelType": "source",
+          "isPointSource": true,
+          "magnitudeMag": -4.81,
+          "filterId": "V"
+        },
+        "saturationModel": {
+          "modelType": "source",
+          "isPointSource": true,
+          "magnitudeMag": -4.81,
+          "filterId": "V"
+        }
+      },
+      "requests": [
+        {
+          "requestType": "optical_imaging",
+          "order": 0,
+          "filterSpecifierIds": [
+            "h-alpha"
+          ],
+          "exposureTimeSec": 0.1,
+          "sampleCount": 5,
+          "allowBinning": true
+        }
+      ]
+    },
+    "preflight": {
+      "visible": {
+        "pass": true,
+        "detail": "35 usable min, 10:30-11:05 UTC"
+      },
+      "filters": {
+        "pass": true,
+        "detail": "Venus:h-alpha"
+      },
+      "exposure": {
+        "pass": true,
+        "detail": "Venus 0.1s"
+      },
+      "time_budget": {
+        "pass": true,
+        "detail": "needs 150s of 2100s (overhead 30s/frame)"
+      },
+      "in_fov": {
+        "pass": true,
+        "detail": "extent 0.2x0.3' vs FOV 63.5x42.3'"
+      }
+    }
+  },
+  {
+    "site": "GZ03",
+    "telescope": "HSC",
+    "instrument_uid": null,
+    "target": "Mars",
+    "ra_deg": 148.0894,
+    "dec_deg": 14.94614,
+    "window_utc": [
+      "2026-11-15T10:30:00Z",
+      "2026-11-15T11:05:00Z"
+    ],
+    "exposures": [
+      {
+        "for": "Mars",
+        "filter": "h-alpha",
+        "exp_s": 0.1,
+        "count": 5
+      }
+    ],
+    "skynetSpec": {
+      "name": "StarGazer GZ03 Mars",
+      "startAfter": "2026-11-15T10:30:00Z",
+      "cancelOn": "2026-11-15T11:05:00Z",
+      "target": {
+        "name": "Mars",
+        "position": {
+          "positionType": "fixed",
+          "coordinates": {
+            "coordinateType": "equatorial",
+            "raDeg": 148.089404,
+            "decDeg": 14.946137
+          }
+        }
+      },
+      "opticalImagingConfiguration": {
+        "trackingMode": "sidereal",
+        "ditherStrategy": "none",
+        "temporalOffsetSec": 0.0,
+        "maxTiles": 1,
+        "tileOverlap": 0.0,
+        "minElevationDeg": 5.0,
+        "maxSunElevationDeg": -10.0,
+        "brightnessModel": {
+          "modelType": "source",
+          "isPointSource": true,
+          "magnitudeMag": 0.64,
+          "filterId": "V"
+        },
+        "saturationModel": {
+          "modelType": "source",
+          "isPointSource": true,
+          "magnitudeMag": 0.64,
+          "filterId": "V"
+        }
+      },
+      "requests": [
+        {
+          "requestType": "optical_imaging",
+          "order": 0,
+          "filterSpecifierIds": [
+            "h-alpha"
+          ],
+          "exposureTimeSec": 0.1,
+          "sampleCount": 5,
+          "allowBinning": true
+        }
+      ]
+    },
+    "preflight": {
+      "visible": {
+        "pass": true,
+        "detail": "35 usable min, 10:30-11:05 UTC"
+      },
+      "filters": {
+        "pass": true,
+        "detail": "Mars:h-alpha"
+      },
+      "exposure": {
+        "pass": true,
+        "detail": "Mars 0.1s"
+      },
+      "time_budget": {
+        "pass": true,
+        "detail": "needs 150s of 2100s (overhead 30s/frame)"
+      },
+      "in_fov": {
+        "pass": true,
+        "detail": "extent 0.6x0.2' vs FOV 63.5x42.3'"
+      }
+    }
+  },
+  {
+    "site": "GZ03",
+    "telescope": "HSC",
+    "instrument_uid": null,
+    "target": "Jupiter",
+    "ra_deg": 147.96724,
+    "dec_deg": 13.73651,
+    "window_utc": [
+      "2026-11-15T10:30:00Z",
+      "2026-11-15T11:05:00Z"
+    ],
+    "exposures": [
+      {
+        "for": "Jupiter",
+        "filter": "h-alpha",
+        "exp_s": 0.1,
+        "count": 5
+      }
+    ],
+    "skynetSpec": {
+      "name": "StarGazer GZ03 Jupiter",
+      "startAfter": "2026-11-15T10:30:00Z",
+      "cancelOn": "2026-11-15T11:05:00Z",
+      "target": {
+        "name": "Jupiter",
+        "position": {
+          "positionType": "fixed",
+          "coordinates": {
+            "coordinateType": "equatorial",
+            "raDeg": 147.967236,
+            "decDeg": 13.736513
+          }
+        }
+      },
+      "opticalImagingConfiguration": {
+        "trackingMode": "sidereal",
+        "ditherStrategy": "none",
+        "temporalOffsetSec": 0.0,
+        "maxTiles": 1,
+        "tileOverlap": 0.0,
+        "minElevationDeg": 5.0,
+        "maxSunElevationDeg": -10.0,
+        "brightnessModel": {
+          "modelType": "source",
+          "isPointSource": true,
+          "magnitudeMag": -2.09,
+          "filterId": "V"
+        },
+        "saturationModel": {
+          "modelType": "source",
+          "isPointSource": true,
+          "magnitudeMag": -2.09,
+          "filterId": "V"
+        }
+      },
+      "requests": [
+        {
+          "requestType": "optical_imaging",
+          "order": 0,
+          "filterSpecifierIds": [
+            "h-alpha"
+          ],
+          "exposureTimeSec": 0.1,
+          "sampleCount": 5,
+          "allowBinning": true
+        }
+      ]
+    },
+    "preflight": {
+      "visible": {
+        "pass": true,
+        "detail": "35 usable min, 10:30-11:05 UTC"
+      },
+      "filters": {
+        "pass": true,
+        "detail": "Jupiter:h-alpha"
+      },
+      "exposure": {
+        "pass": true,
+        "detail": "Jupiter 0.1s"
+      },
+      "time_budget": {
+        "pass": true,
+        "detail": "needs 150s of 2100s (overhead 30s/frame)"
+      },
+      "in_fov": {
+        "pass": true,
+        "detail": "extent 0.1x0.0' vs FOV 63.5x42.3'"
+      }
+    }
+  }
+]

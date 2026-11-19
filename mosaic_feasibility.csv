@@ -1,0 +1,8 @@
+site,telescope,target,ra_deg,dec_deg,window_start,window_stop,filters,exp_s,need_s,window_s,remote_checked,feasible,reason
+GZ02,MDRS-WF,Mercury,213.47192,-11.05163,2026-11-15T13:03:00Z,2026-11-15T13:16:00Z,h-alpha,0.1,150,780,False,True,
+GZ02,MDRS-WF,Venus,200.35457,-9.98984,2026-11-15T13:00:00Z,2026-11-15T13:16:00Z,h-alpha,0.1,150,960,False,True,
+GZ02,MDRS-WF,Mars+Jupiter,148.05383,14.33379,2026-11-15T13:00:00Z,2026-11-15T13:16:00Z,h-alpha;h-alpha,0.1;0.1,301,960,False,True,
+GZ03,HSC,Mercury,213.44108,-11.04905,2026-11-15T10:52:00Z,2026-11-15T11:05:00Z,h-alpha,0.1,150,780,False,True,
+GZ03,HSC,Venus,200.34113,-10.00782,2026-11-15T10:30:00Z,2026-11-15T11:05:00Z,h-alpha,0.1,150,2100,False,True,
+GZ03,HSC,Mars,148.0894,14.94614,2026-11-15T10:30:00Z,2026-11-15T11:05:00Z,h-alpha,0.1,150,2100,False,True,
+GZ03,HSC,Jupiter,147.96724,13.73651,2026-11-15T10:30:00Z,2026-11-15T11:05:00Z,h-alpha,0.1,150,2100,False,True,

@@ -1,0 +1,10 @@
+.env
+.env.*
+*.env
+__pycache__/
+user_sites/
+# not needed by the web app (kept locally)
+skynet_survey_2026-11-01_2026-12-05/
+own_sites/
+testgzfour.jpeg
+*.bak

@@ -1,0 +1,275 @@
+[
+  {
+    "site": "TYMCE",
+    "telescope": "OAUJ-TYMCE",
+    "instrument_uid": null,
+    "target": "Venus",
+    "ra_deg": 200.19222,
+    "dec_deg": -10.26323,
+    "window_utc": [
+      "2026-11-14T03:41:00Z",
+      "2026-11-14T04:37:00Z"
+    ],
+    "exposures": [
+      {
+        "for": "Venus",
+        "filter": "green",
+        "exp_s": 0.1,
+        "count": 5
+      }
+    ],
+    "skynetSpec": {
+      "name": "StarGazer TYMCE Venus",
+      "startAfter": "2026-11-14T03:41:00Z",
+      "cancelOn": "2026-11-14T04:37:00Z",
+      "target": {
+        "name": "Venus",
+        "position": {
+          "positionType": "fixed",
+          "coordinates": {
+            "coordinateType": "equatorial",
+            "raDeg": 200.192225,
+            "decDeg": -10.263232
+          }
+        }
+      },
+      "opticalImagingConfiguration": {
+        "trackingMode": "sidereal",
+        "ditherStrategy": "none",
+        "temporalOffsetSec": 0.0,
+        "maxTiles": 1,
+        "tileOverlap": 0.0,
+        "minElevationDeg": 5.0,
+        "maxSunElevationDeg": -10.0,
+        "brightnessModel": {
+          "modelType": "source",
+          "isPointSource": true,
+          "magnitudeMag": -4.79,
+          "filterId": "V"
+        },
+        "saturationModel": {
+          "modelType": "source",
+          "isPointSource": true,
+          "magnitudeMag": -4.79,
+          "filterId": "V"
+        }
+      },
+      "requests": [
+        {
+          "requestType": "optical_imaging",
+          "order": 0,
+          "filterSpecifierIds": [
+            "green"
+          ],
+          "exposureTimeSec": 0.1,
+          "sampleCount": 5,
+          "allowBinning": true
+        }
+      ]
+    },
+    "preflight": {
+      "visible": {
+        "pass": true,
+        "detail": "56 usable min, 03:41-04:37 UTC"
+      },
+      "filters": {
+        "pass": true,
+        "detail": "Venus:green"
+      },
+      "exposure": {
+        "pass": true,
+        "detail": "Venus 0.1s"
+      },
+      "time_budget": {
+        "pass": true,
+        "detail": "needs 13s of 3360s (overhead 2.5s/frame)"
+      },
+      "in_fov": {
+        "pass": true,
+        "detail": "extent 0.2x0.5' vs FOV 34.6x23.1'"
+      }
+    }
+  },
+  {
+    "site": "TYMCE",
+    "telescope": "OAUJ-TYMCE",
+    "instrument_uid": null,
+    "target": "Mars",
+    "ra_deg": 147.51061,
+    "dec_deg": 15.11359,
+    "window_utc": [
+      "2026-11-14T03:00:00Z",
+      "2026-11-14T04:37:00Z"
+    ],
+    "exposures": [
+      {
+        "for": "Mars",
+        "filter": "green",
+        "exp_s": 0.1,
+        "count": 5
+      }
+    ],
+    "skynetSpec": {
+      "name": "StarGazer TYMCE Mars",
+      "startAfter": "2026-11-14T03:00:00Z",
+      "cancelOn": "2026-11-14T04:37:00Z",
+      "target": {
+        "name": "Mars",
+        "position": {
+          "positionType": "fixed",
+          "coordinates": {
+            "coordinateType": "equatorial",
+            "raDeg": 147.510609,
+            "decDeg": 15.113585
+          }
+        }
+      },
+      "opticalImagingConfiguration": {
+        "trackingMode": "sidereal",
+        "ditherStrategy": "none",
+        "temporalOffsetSec": 0.0,
+        "maxTiles": 1,
+        "tileOverlap": 0.0,
+        "minElevationDeg": 5.0,
+        "maxSunElevationDeg": -10.0,
+        "brightnessModel": {
+          "modelType": "source",
+          "isPointSource": true,
+          "magnitudeMag": 0.71,
+          "filterId": "V"
+        },
+        "saturationModel": {
+          "modelType": "source",
+          "isPointSource": true,
+          "magnitudeMag": 0.71,
+          "filterId": "V"
+        }
+      },
+      "requests": [
+        {
+          "requestType": "optical_imaging",
+          "order": 0,
+          "filterSpecifierIds": [
+            "green"
+          ],
+          "exposureTimeSec": 0.1,
+          "sampleCount": 5,
+          "allowBinning": true
+        }
+      ]
+    },
+    "preflight": {
+      "visible": {
+        "pass": true,
+        "detail": "97 usable min, 03:00-04:37 UTC"
+      },
+      "filters": {
+        "pass": true,
+        "detail": "Mars:green"
+      },
+      "exposure": {
+        "pass": true,
+        "detail": "Mars 0.1s"
+      },
+      "time_budget": {
+        "pass": true,
+        "detail": "needs 13s of 5820s (overhead 2.5s/frame)"
+      },
+      "in_fov": {
+        "pass": true,
+        "detail": "extent 1.7x0.5' vs FOV 34.6x23.1'"
+      }
+    }
+  },
+  {
+    "site": "TYMCE",
+    "telescope": "OAUJ-TYMCE",
+    "instrument_uid": null,
+    "target": "Jupiter",
+    "ra_deg": 147.85758,
+    "dec_deg": 13.76941,
+    "window_utc": [
+      "2026-11-14T03:00:00Z",
+      "2026-11-14T04:37:00Z"
+    ],
+    "exposures": [
+      {
+        "for": "Jupiter",
+        "filter": "green",
+        "exp_s": 0.1,
+        "count": 5
+      }
+    ],
+    "skynetSpec": {
+      "name": "StarGazer TYMCE Jupiter",
+      "startAfter": "2026-11-14T03:00:00Z",
+      "cancelOn": "2026-11-14T04:37:00Z",
+      "target": {
+        "name": "Jupiter",
+        "position": {
+          "positionType": "fixed",
+          "coordinates": {
+            "coordinateType": "equatorial",
+            "raDeg": 147.857579,
+            "decDeg": 13.769414
+          }
+        }
+      },
+      "opticalImagingConfiguration": {
+        "trackingMode": "sidereal",
+        "ditherStrategy": "none",
+        "temporalOffsetSec": 0.0,
+        "maxTiles": 1,
+        "tileOverlap": 0.0,
+        "minElevationDeg": 5.0,
+        "maxSunElevationDeg": -10.0,
+        "brightnessModel": {
+          "modelType": "source",
+          "isPointSource": true,
+          "magnitudeMag": -2.08,
+          "filterId": "V"
+        },
+        "saturationModel": {
+          "modelType": "source",
+          "isPointSource": true,
+          "magnitudeMag": -2.08,
+          "filterId": "V"
+        }
+      },
+      "requests": [
+        {
+          "requestType": "optical_imaging",
+          "order": 0,
+          "filterSpecifierIds": [
+            "green"
+          ],
+          "exposureTimeSec": 0.1,
+          "sampleCount": 5,
+          "allowBinning": true
+        }
+      ]
+    },
+    "preflight": {
+      "visible": {
+        "pass": true,
+        "detail": "97 usable min, 03:00-04:37 UTC"
+      },
+      "filters": {
+        "pass": true,
+        "detail": "Jupiter:green"
+      },
+      "exposure": {
+        "pass": true,
+        "detail": "Jupiter 0.1s"
+      },
+      "time_budget": {
+        "pass": true,
+        "detail": "needs 13s of 5820s (overhead 2.5s/frame)"
+      },
+      "in_fov": {
+        "pass": true,
+        "detail": "extent 0.3x0.1' vs FOV 34.6x23.1'"
+      }
+    }
+  }
+]

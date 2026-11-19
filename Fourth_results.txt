@@ -1,0 +1,360 @@
+10: 817 rows
+199: 817 rows
+299: 817 rows
+499: 817 rows
+599: 817 rows
+10: 817 rows
+199: 817 rows
+299: 817 rows
+499: 817 rows
+599: 817 rows
+10: 817 rows
+199: 817 rows
+299: 817 rows
+499: 817 rows
+599: 817 rows
+10: 817 rows
+199: 817 rows
+299: 817 rows
+499: 817 rows
+599: 817 rows
+10: 817 rows
+199: 817 rows
+299: 817 rows
+499: 817 rows
+599: 817 rows
+
+Usable samples (30m each):
+name  Jupiter  Mars  Mercury  Venus
+site                               
+GZ01      191   198       12     31
+GZ02      198   206        9     31
+GZ03      193   202       13     28
+GZ04      286   305        7     17
+GZ05      180   187        9     31
+
+===== A. Single-site conjunction (all four visible at once) =====
+10: 61 rows
+199: 61 rows
+299: 61 rows
+499: 61 rows
+599: 61 rows
+[GZ01] 2026-Nov-15 21:22 UTC  S=69.7033 deg  min_elev=11.7  sun=-6.1
+
+######## GZ01 / GZ01_7D_10mm @ 2026-11-15 21:22:00 UTC | Mercury, Venus, Mars, Jupiter ########
+Instrument: GZ01_7D_10mm | f=10 mm, D=2.2 mm, f/4.50
+Projection: rectilinear
+Plate scale: 88.729" x 88.928"/px
+FOV: 96.225 deg x 73.372 deg
+
+All four in ONE frame: worst extent 74.24 x 31.31 deg, needs 81.66 x 34.44 deg -> fits
+
+Window: 2026-11-15 20:30:00 -> 2026-11-15 21:30:00 (61 samples) | reference time 2026-11-15 21:22:00
+
+Disk sampling at reference time:
+         theta_min  theta_peak  theta_max  n_x_peak  n_y_peak  pct_of_FOV_width                quality
+planet                                                                                                
+Mercury      7.748       7.749      7.757     0.087     0.087             0.002  Severely undersampled
+Venus       49.804      49.808     49.834     0.561     0.560             0.014  Severely undersampled
+Mars         7.157       7.159      7.159     0.081     0.081             0.002  Severely undersampled
+Jupiter     37.411      37.415     37.416     0.422     0.421             0.011  Severely undersampled
+
+Diffraction: Rayleigh 62.28" | 0.70 px per element (sensor-limited (undersampled)) | diffraction+seeing 62.31" = 0.70 px
+
+Collecting area A = 0.04 cm^2
+           mag  F_gamma  Ne_rate  flux_vs_brightest
+planet                                             
+Mercury -0.067 9.36e+09 1.31e+04             0.0125
+Venus    -4.82 7.46e+11 1.04e+06                  1
+Mars     0.705  4.6e+09 6.42e+03            0.00616
+Jupiter  -2.09 6.03e+10 8.41e+04             0.0808
+
+Exposure model (elevation >= 5 deg only, SNR 20, tripod, trail limit 6.11 s):
+         visible_samples  mag_eff  n_pix  Ne_rate  B_sky  t_sat_s  t_snr_s  t_max_s  ok_alone  t_suggest_s
+planet                                                                                                    
+Mercury               43        2      1 1.95e+03   24.4      2.7    0.212      2.7      True        0.756
+Venus                 61    -3.91      1 4.51e+05   3.86   0.0242 0.000906   0.0242      True      0.00469
+Mars                  61    0.928      1 5.23e+03   3.86     3.02   0.0783     3.02      True        0.486
+Jupiter               61    -1.87      1 6.87e+04   3.86    0.231  0.00595    0.231      True       0.0371
+10: 61 rows
+199: 61 rows
+299: 61 rows
+499: 61 rows
+599: 61 rows
+[GZ02] 2026-Nov-15 13:36 UTC  S=69.7323 deg  min_elev=11.1  sun=-6.1
+
+######## GZ02 / MDRS_WF @ 2026-11-15 13:36:00 UTC | Mercury, Venus, Mars, Jupiter ########
+Instrument: MDRS_WF | f=336 mm, D=100.0 mm, f/3.36
+Projection: rectilinear
+Plate scale: 1.842" x 1.842"/px
+FOV: 1.539 deg x 1.539 deg
+
+All four in ONE frame: worst extent 74.11 x 31.34 deg, needs 81.52 x 34.47 deg -> does NOT fit
+
+Window: 2026-11-15 13:00:00 -> 2026-11-15 14:00:00 (61 samples) | reference time 2026-11-15 13:36:00
+
+Disk sampling at reference time:
+         theta_min  theta_peak  theta_max  n_x_peak  n_y_peak  pct_of_FOV_width                      quality
+planet                                                                                                      
+Mercury      7.820       7.824      7.830     4.248     4.248             0.141  Very limited representation
+Venus       50.043      50.055     50.074    27.179    27.179             0.904  Better shape representation
+Mars         7.143       7.144      7.145     3.879     3.879             0.129  Very limited representation
+Jupiter     37.377      37.379     37.381    20.297    20.297             0.675  Better shape representation
+
+Diffraction: Rayleigh 1.38" | 0.75 px per element (sensor-limited (undersampled)) | diffraction+seeing 2.43" = 1.32 px
+
+Collecting area A = 78.54 cm^2
+           mag  F_gamma  Ne_rate  flux_vs_brightest
+planet                                             
+Mercury -0.021 8.97e+09 2.82e+07             0.0121
+Venus    -4.82 7.42e+11 2.33e+09                  1
+Mars     0.644 4.86e+09 1.53e+07            0.00655
+Jupiter  -2.09 6.02e+10 1.89e+08             0.0811
+
+Exposure model (elevation >= 5 deg only, SNR 20, tracking):
+         visible_samples  mag_eff  n_pix  Ne_rate  B_sky  t_sat_s  t_snr_s  t_max_s  ok_alone  t_suggest_s
+planet                                                                                                    
+Mercury               58     2.02   15.6 4.31e+06   23.6   0.0437 0.000118   0.0437      True      0.00227
+Venus                 61    -4.04    582 1.14e+09   3.73   0.0154 1.45e-06   0.0154      True      0.00015
+Mars                  61    0.873   13.2 1.24e+07   3.73   0.0422 4.01e-05   0.0422      True       0.0013
+Jupiter               61    -1.86    325 1.54e+08   3.73   0.0842 8.44e-06   0.0842      True     0.000843
+10: 61 rows
+199: 61 rows
+299: 61 rows
+499: 61 rows
+599: 61 rows
+[GZ03] 2026-Nov-15 11:25 UTC  S=69.7436 deg  min_elev=11.2  sun=-6.0
+
+######## GZ03 / Hampden_Sydney @ 2026-11-15 11:25:00 UTC | Mercury, Venus, Mars, Jupiter ########
+Instrument: Hampden_Sydney | f=1949 mm, D=432.0 mm, f/4.51
+Projection: rectilinear
+Plate scale: 0.398" x 0.398"/px
+FOV: 1.058 deg x 0.706 deg
+
+All four in ONE frame: worst extent 74.07 x 31.35 deg, needs 81.48 x 34.49 deg -> does NOT fit
+
+Window: 2026-11-15 10:30:00 -> 2026-11-15 11:30:00 (61 samples) | reference time 2026-11-15 11:25:00
+
+Disk sampling at reference time:
+         theta_min  theta_peak  theta_max  n_x_peak  n_y_peak  pct_of_FOV_width                                 quality
+planet                                                                                                                 
+Mercury      7.844       7.845      7.854    19.719    19.731             0.206             Better shape representation
+Venus       50.122      50.125     50.153   125.985   126.064             1.316                 High sampling potential
+Mars         7.138       7.140      7.140    17.945    17.956             0.187             Better shape representation
+Jupiter     37.365      37.369     37.370    93.925    93.984             0.981  More useful planetary detail potential
+
+Diffraction: Rayleigh 0.32" | 0.81 px per element (sensor-limited (undersampled)) | diffraction+seeing 2.03" = 5.09 px
+
+Collecting area A = 1465.74 cm^2
+           mag  F_gamma  Ne_rate  flux_vs_brightest
+planet                                             
+Mercury -0.008 8.87e+09 9.46e+08              0.012
+Venus    -4.81 7.41e+11 7.91e+10                  1
+Mars     0.641 4.88e+09  5.2e+08            0.00658
+Jupiter  -2.09 6.02e+10 6.42e+09             0.0811
+
+Exposure model (elevation >= 5 deg only, SNR 20, tracking):
+         visible_samples  mag_eff    n_pix  Ne_rate  B_sky  t_sat_s  t_snr_s  t_max_s  ok_alone  t_suggest_s
+planet                                                                                                      
+Mercury               39     2.03      326 1.45e+08   37.3   0.0334 3.93e-06   0.0334      True     0.000362
+Venus                 61    -3.83 1.25e+04 3.18e+10   5.91   0.0106  6.7e-08   0.0106      True     2.66e-05
+Mars                  61    0.858      273 4.26e+08   5.91   0.0263 1.29e-06   0.0263      True     0.000184
+Jupiter               61    -1.86 6.95e+03 5.22e+09   5.91   0.0545 3.16e-07   0.0545      True     0.000131
+10: 61 rows
+199: 61 rows
+299: 61 rows
+499: 61 rows
+599: 61 rows
+[GZ04] 2026-Nov-16 06:19 UTC  S=69.7301 deg  min_elev=5.0  sun=-7.2
+
+######## GZ04 / IRF_Kiruna_ASC @ 2026-11-16 06:19:00 UTC | Mercury, Venus, Mars, Jupiter ########
+Instrument: IRF_Kiruna_ASC | f=8 mm, D=2.9 mm, f/2.80
+Projection: equidistant_fisheye
+Usable image circle: 2700 px
+Optical center: (1416.0, 1416.0)
+
+Fisheye image coverage at all 61 timestamps (planets >= 5 deg, only Mercury, Venus, Mars, Jupiter): fits
+
+Planet positions at reference time 2026-11-16 06:19:00:
+                x_px         y_px  disk_radius_px  inside  required
+planet                                                             
+Mercury   550.397703  2351.501833        0.015965    True      True
+Venus     805.800628  2463.275385        0.103170    True      True
+Mars     1775.888350  2157.632150        0.014950    True      True
+Jupiter  1786.904809  2171.882181        0.078035    True      True
+
+Window: 2026-11-16 06:00:00 -> 2026-11-16 07:00:00 (61 samples) | reference time 2026-11-16 06:19:00
+
+Disk sampling at reference time:
+         theta_min  theta_peak  theta_max  n_x_peak  n_y_peak  pct_of_FOV_width                quality
+planet                                                                                                
+Mercury      7.657       7.663      7.666     0.032     0.032             0.001  Severely undersampled
+Venus       49.500      49.521     49.531     0.206     0.206             0.008  Severely undersampled
+Mars         7.176       7.176      7.178     0.030     0.030             0.001  Severely undersampled
+Jupiter     37.455      37.457     37.460     0.156     0.156             0.006  Severely undersampled
+
+Diffraction: Rayleigh 48.44" | 0.20 px per element (sensor-limited (undersampled)) | diffraction+seeing 48.48" = 0.20 px
+
+Collecting area A = 0.06 cm^2
+           mag  F_gamma  Ne_rate  flux_vs_brightest
+planet                                             
+Mercury -0.115 9.78e+09 2.51e+04              0.013
+Venus    -4.83  7.5e+11 1.92e+06                  1
+Mars     0.666 4.77e+09 1.22e+04            0.00635
+Jupiter  -2.09 6.04e+10 1.55e+05             0.0805
+
+Exposure model (elevation >= 5 deg only, SNR 20, tripod, trail limit 16.50 s):
+         visible_samples  mag_eff  n_pix  Ne_rate  B_sky  t_sat_s  t_snr_s  t_max_s  ok_alone  t_suggest_s
+planet                                                                                                    
+Mercury               42     1.94      1  3.8e+03    327     5.86    0.117     5.86      True        0.827
+Venus                 61    -3.49      1 5.62e+05   51.8   0.0539 0.000728   0.0539      True      0.00626
+Mars                  61     1.02      1  8.8e+03   51.8     4.48   0.0467     4.48      True        0.457
+Jupiter               61    -1.71      1 1.09e+05   51.8    0.357  0.00374    0.357      True       0.0365
+10: 61 rows
+199: 61 rows
+299: 61 rows
+499: 61 rows
+599: 61 rows
+[GZ05] 2026-Nov-15 12:34 UTC  S=69.7376 deg  min_elev=11.7  sun=-6.2
+
+######## GZ05 / GZ05_S25U_UW @ 2026-11-15 12:34:00 UTC | Mercury, Venus, Mars, Jupiter ########
+Instrument: GZ05_S25U_UW | f=2.1 mm, D=1.1 mm, f/1.90
+Projection: rectilinear
+Plate scale: 137.510" x 137.510"/px
+FOV: 107.346 deg x 91.135 deg
+
+All four in ONE frame: worst extent 74.09 x 31.35 deg, needs 81.50 x 34.48 deg -> fits
+
+Window: 2026-11-15 12:00:00 -> 2026-11-15 13:00:00 (61 samples) | reference time 2026-11-15 12:34:00
+
+Disk sampling at reference time:
+         theta_min  theta_peak  theta_max  n_x_peak  n_y_peak  pct_of_FOV_width                quality
+planet                                                                                                
+Mercury      7.830       7.834      7.840     0.057     0.057             0.002  Severely undersampled
+Venus       50.075      50.088     50.106     0.364     0.364             0.013  Severely undersampled
+Mars         7.141       7.142      7.143     0.052     0.052             0.002  Severely undersampled
+Jupiter     37.372      37.375     37.377     0.272     0.272             0.010  Severely undersampled
+
+Diffraction: Rayleigh 125.22" | 0.91 px per element (sensor-limited (undersampled)) | diffraction+seeing 125.24" = 0.91 px
+
+Collecting area A = 0.01 cm^2
+           mag  F_gamma  Ne_rate  flux_vs_brightest
+planet                                             
+Mercury -0.015 8.92e+09 4.37e+03              0.012
+Venus    -4.81 7.41e+11 3.63e+05                  1
+Mars     0.642 4.87e+09 2.38e+03            0.00657
+Jupiter  -2.09 6.02e+10 2.94e+04             0.0811
+
+Exposure model (elevation >= 5 deg only, SNR 20, tripod, trail limit 9.46 s):
+         visible_samples  mag_eff  n_pix  Ne_rate  B_sky  t_sat_s  t_snr_s  t_max_s  ok_alone  t_suggest_s
+planet                                                                                                    
+Mercury               58     2.03      1      661   20.5     2.01     0.63     2.01      True         1.13
+Venus                 61     -4.1      1 1.89e+05   3.24   0.0194  0.00214   0.0194      True      0.00645
+Mars                  61    0.849      1 1.97e+03   3.24     2.42    0.205     2.42      True        0.706
+Jupiter               61    -1.88      1 2.43e+04   3.24    0.197   0.0167    0.197      True       0.0573
+
+===== B. Multi-site capture plans (shortest total span) =====
+
+Span 0 days 00:00:00 starting 2026-11-10 11:30:00 UTC
+   name site     instrument              date   azi  elev  sun_elev
+Mercury GZ03 Hampden_Sydney 2026-Nov-10 11:30 111.6   7.6      -4.2
+  Venus GZ05   GZ05_S25U_UW 2026-Nov-10 11:30 105.2   5.1     -19.5
+   Mars GZ05   GZ05_S25U_UW 2026-Nov-10 11:30 109.4  65.1     -19.5
+Jupiter GZ05   GZ05_S25U_UW 2026-Nov-10 11:30 111.0  62.8     -19.5
+
+Span 0 days 00:00:00 starting 2026-11-10 12:30:00 UTC
+   name site   instrument              date   azi  elev  sun_elev
+Mercury GZ05 GZ05_S25U_UW 2026-Nov-10 12:30 106.5   5.9      -6.3
+  Venus GZ05 GZ05_S25U_UW 2026-Nov-10 12:30 112.6  18.0      -6.3
+   Mars GZ05 GZ05_S25U_UW 2026-Nov-10 12:30 137.7  76.6      -6.3
+Jupiter GZ05 GZ05_S25U_UW 2026-Nov-10 12:30 137.0  74.2      -6.3
+
+Span 0 days 00:00:00 starting 2026-11-10 13:30:00 UTC
+   name site instrument              date   azi  elev  sun_elev
+Mercury GZ02    MDRS_WF 2026-Nov-10 13:30 110.3   5.6      -6.3
+  Venus GZ02    MDRS_WF 2026-Nov-10 13:30 119.1  15.9      -6.3
+   Mars GZ02    MDRS_WF 2026-Nov-10 13:30 168.3  66.7      -6.3
+Jupiter GZ02    MDRS_WF 2026-Nov-10 13:30 165.2  64.7      -6.3
+
+===== C. Optics for the best capture plan =====
+10: 61 rows
+199: 61 rows
+299: 61 rows
+499: 61 rows
+599: 61 rows
+
+######## GZ03 / Hampden_Sydney @ 2026-11-10 11:30:00 UTC | Mercury ########
+Instrument: Hampden_Sydney | f=1949 mm, D=432.0 mm, f/4.51
+Projection: rectilinear
+Plate scale: 0.398" x 0.398"/px
+FOV: 1.058 deg x 0.706 deg
+
+All four in ONE frame: worst extent 77.67 x 33.96 deg, needs 85.43 x 37.36 deg -> does NOT fit
+
+Window: 2026-11-10 11:00:00 -> 2026-11-10 12:00:00 (61 samples) | reference time 2026-11-10 11:30:00
+
+Disk sampling at reference time:
+         theta_min  theta_peak  theta_max  n_x_peak  n_y_peak  pct_of_FOV_width                      quality
+planet                                                                                                      
+Mercury      9.059       9.064      9.069    22.782    22.797             0.238  Better shape representation
+
+Diffraction: Rayleigh 0.32" | 0.81 px per element (sensor-limited (undersampled)) | diffraction+seeing 2.03" = 5.09 px
+
+Collecting area A = 1465.74 cm^2
+          mag  F_gamma  Ne_rate  flux_vs_brightest
+planet                                            
+Mercury  1.49 2.24e+09 2.39e+08             0.0034
+Venus   -4.68 6.58e+11 7.03e+10                  1
+Mars    0.711 4.57e+09 4.88e+08            0.00694
+Jupiter -2.06 5.85e+10 6.24e+09             0.0888
+
+Exposure model (elevation >= 5 deg only, SNR 20, tracking):
+         visible_samples  mag_eff  n_pix  Ne_rate  B_sky  t_sat_s  t_snr_s  t_max_s  ok_alone  t_suggest_s
+planet                                                                                                    
+Mercury               44      3.5    428 3.74e+07   37.3    0.162 1.63e-05    0.162      True      0.00163
+10: 61 rows
+199: 61 rows
+299: 61 rows
+499: 61 rows
+599: 61 rows
+
+######## GZ05 / GZ05_S25U_UW @ 2026-11-10 11:30:00 UTC | Venus, Mars, Jupiter ########
+Instrument: GZ05_S25U_UW | f=2.1 mm, D=1.1 mm, f/1.90
+Projection: rectilinear
+Plate scale: 137.510" x 137.510"/px
+FOV: 107.346 deg x 91.135 deg
+
+All four in ONE frame: worst extent 77.67 x 33.96 deg, needs 85.43 x 37.36 deg -> fits
+
+Window: 2026-11-10 11:00:00 -> 2026-11-10 12:00:00 (61 samples) | reference time 2026-11-10 11:30:00
+
+Disk sampling at reference time:
+         theta_min  theta_peak  theta_max  n_x_peak  n_y_peak  pct_of_FOV_width                quality
+planet                                                                                                
+Venus       53.875      53.890     53.904     0.392     0.392             0.014  Severely undersampled
+Mars         6.915       6.916      6.917     0.050     0.050             0.002  Severely undersampled
+Jupiter     36.821      36.823     36.825     0.268     0.268             0.010  Severely undersampled
+
+Diffraction: Rayleigh 125.22" | 0.91 px per element (sensor-limited (undersampled)) | diffraction+seeing 125.24" = 0.91 px
+
+Collecting area A = 0.01 cm^2
+          mag  F_gamma  Ne_rate  flux_vs_brightest
+planet                                            
+Mercury  1.49 2.24e+09 1.09e+03             0.0034
+Venus   -4.68 6.58e+11 3.22e+05                  1
+Mars    0.711 4.57e+09 2.24e+03            0.00695
+Jupiter -2.06 5.85e+10 2.86e+04             0.0889
+
+Exposure model (elevation >= 5 deg only, SNR 20, tripod, trail limit 9.49 s):
+         visible_samples  mag_eff  n_pix  Ne_rate  B_sky  t_sat_s  t_snr_s  t_max_s  ok_alone  t_suggest_s
+planet                                                                                                    
+Venus                 31    -2.66      1    5e+04   3.24   0.0365  0.00807   0.0365      True       0.0172
+Mars                  61    0.959      1 1.78e+03   3.24     2.59    0.227     2.59      True        0.768
+Jupiter               61    -1.82      1 2.29e+04   3.24    0.204   0.0176    0.204      True         0.06
+
+===== SUMMARY (UTC) =====
+GZ01 {'site': 'GZ01', 'dt': datetime.datetime(2026, 11, 15, 21, 22), 'date': '2026-Nov-15 21:22', 'S_deg': 69.7033, 'min_elev': 11.7, 'sun_elev': -6.1}
+GZ02 {'site': 'GZ02', 'dt': datetime.datetime(2026, 11, 15, 13, 36), 'date': '2026-Nov-15 13:36', 'S_deg': 69.7323, 'min_elev': 11.1, 'sun_elev': -6.1}
+GZ03 {'site': 'GZ03', 'dt': datetime.datetime(2026, 11, 15, 11, 25), 'date': '2026-Nov-15 11:25', 'S_deg': 69.7436, 'min_elev': 11.2, 'sun_elev': -6.0}
+GZ04 {'site': 'GZ04', 'dt': datetime.datetime(2026, 11, 16, 6, 19), 'date': '2026-Nov-16 06:19', 'S_deg': 69.7301, 'min_elev': 5.0, 'sun_elev': -7.2}
+GZ05 {'site': 'GZ05', 'dt': datetime.datetime(2026, 11, 15, 12, 34), 'date': '2026-Nov-15 12:34', 'S_deg': 69.7376, 'min_elev': 11.7, 'sun_elev': -6.2}

@@ -1,0 +1,965 @@
+[
+  {
+    "site": "MOREHEAD",
+    "telescope": "Morehead",
+    "instrument_uid": "b1c8b3aa-3274-4f65-aeab-31ac23c217c8",
+    "target": "Venus",
+    "ra_deg": 200.22049,
+    "dec_deg": -10.20444,
+    "window_utc": [
+      "2026-11-14T10:27:00Z",
+      "2026-11-14T11:04:00Z"
+    ],
+    "exposures": [
+      {
+        "for": "Venus",
+        "filter": "V",
+        "exp_s": 0.1,
+        "count": 5
+      }
+    ],
+    "skynetSpec": {
+      "name": "StarGazer MOREHEAD Venus",
+      "startAfter": "2026-11-14T10:27:00Z",
+      "cancelOn": "2026-11-14T11:04:00Z",
+      "target": {
+        "name": "Venus",
+        "position": {
+          "positionType": "fixed",
+          "coordinates": {
+            "coordinateType": "equatorial",
+            "raDeg": 200.220486,
+            "decDeg": -10.204438
+          }
+        }
+      },
+      "opticalImagingConfiguration": {
+        "trackingMode": "sidereal",
+        "ditherStrategy": "none",
+        "temporalOffsetSec": 0.0,
+        "maxTiles": 1,
+        "tileOverlap": 0.0,
+        "minElevationDeg": 10.0,
+        "maxSunElevationDeg": -10.0,
+        "brightnessModel": {
+          "modelType": "source",
+          "isPointSource": true,
+          "magnitudeMag": -4.79,
+          "filterId": "V"
+        },
+        "saturationModel": {
+          "modelType": "source",
+          "isPointSource": true,
+          "magnitudeMag": -4.79,
+          "filterId": "V"
+        }
+      },
+      "requests": [
+        {
+          "requestType": "optical_imaging",
+          "order": 0,
+          "filterSpecifierIds": [
+            "V"
+          ],
+          "exposureTimeSec": 0.1,
+          "sampleCount": 5,
+          "allowBinning": true
+        }
+      ],
+      "instrumentMode": "include",
+      "instrumentUids": [
+        "b1c8b3aa-3274-4f65-aeab-31ac23c217c8"
+      ]
+    },
+    "skynetResponses": {
+      "validate": {
+        "name": "StarGazer MOREHEAD Venus",
+        "interruptLowerPriority": false,
+        "epochCount": 1,
+        "cohesionLevel": "epoch",
+        "sampleOrdering": "request_major",
+        "cadenceKind": "asap",
+        "cadenceLevel": null,
+        "cadenceGapSec": null,
+        "cadencePeriodSec": null,
+        "cadenceCalendarUnit": null,
+        "copiesMode": "single",
+        "copiesCount": null,
+        "coordinationKind": null,
+        "coordinationStartToleranceSec": null,
+        "affinityMigrateAt": "observation",
+        "affinityHandoffAfterSec": null,
+        "interruptRecovery": "resume",
+        "instrumentMode": "include",
+        "instrumentUids": [
+          "b1c8b3aa-3274-4f65-aeab-31ac23c217c8"
+        ],
+        "startAfter": "2026-11-14T10:27:00Z",
+        "cancelOn": "2026-11-14T11:04:00Z",
+        "target": {
+          "status": "active",
+          "isDeleted": false,
+          "name": "Venus",
+          "position": {
+            "positionType": "fixed",
+            "coordinates": {
+              "epoch": null,
+              "coordinateType": "equatorial",
+              "raDeg": 200.220486,
+              "decDeg": -10.204438,
+              "distancePc": 0.0,
+              "pmRaMasPerYear": 0.0,
+              "pmDecMasPerYear": 0.0,
+              "radialVelocityKmPerSec": 0.0
+            }
+          },
+          "positionOffsetXDeg": 0.0,
+          "positionOffsetYDeg": 0.0,
+          "positionOffsetFrame": "icrs_tangent",
+          "positionOffsetReferenceTime": null
+        },
+        "opticalImagingConfiguration": {
+          "imageNormalizationSettingsId": null,
+          "trackingMode": "sidereal",
+          "repointingStrategy": "fov_threshold",
+          "ditherStrategy": "none",
+          "ditherStepSizeDeg": null,
+          "ditherSteps": null,
+          "ditherPositionAngleDeg": null,
+          "recenteringThreshold": null,
+          "temporalOffsetSec": 0.0,
+          "fieldLockedOn": null,
+          "minFovXArcmin": null,
+          "minFovYArcmin": null,
+          "maxFovXArcmin": null,
+          "maxFovYArcmin": null,
+          "positionAngleDeg": null,
+          "minPixelScaleArcsecPerPx": null,
+          "maxPixelScaleArcsecPerPx": null,
+          "minPixelsPerFwhm": null,
+          "maxTiles": 1,
+          "tileOverlap": 0.0,
+          "minElevationDeg": 10.0,
+          "maxElevationDeg": null,
+          "minSunElevationDeg": null,
+          "maxSunElevationDeg": -10.0,
+          "minMoonSeparationDeg": null,
+          "minMoonPhaseFraction": null,
+          "maxMoonPhaseFraction": null,
+          "lunarPhaseDirection": null,
+          "brightnessModelId": null,
+          "saturationModelId": null,
+          "brightnessModel": {
+            "modelType": "source",
+            "isPointSource": true,
+            "magnitudeMag": -4.79,
+            "filterId": "V",
+            "avMag": 0.0,
+            "rv": 3.1,
+            "temporalComponentId": null,
+            "spectralComponentId": null,
+            "temporalComponent": null,
+            "spectralComponent": null
+          },
+          "saturationModel": {
+            "modelType": "source",
+            "isPointSource": true,
+            "magnitudeMag": -4.79,
+            "filterId": "V",
+            "avMag": 0.0,
+            "rv": 3.1,
+            "temporalComponentId": null,
+            "spectralComponentId": null,
+            "temporalComponent": null,
+            "spectralComponent": null
+          }
+        },
+        "radioTrackingConfiguration": null,
+        "radioMappingConfiguration": null,
+        "requests": [
+          {
+            "status": "active",
+            "isDeleted": false,
+            "observationId": null,
+            "observationUid": null,
+            "instrumentMode": "none",
+            "sampleCount": 5,
+            "order": 0,
+            "active": true,
+            "createdOn": null,
+            "modifiedOn": null,
+            "requestType": "optical_imaging",
+            "seriesDurationSec": null,
+            "allowBinning": true,
+            "allowSubframe": null,
+            "allowFastReadout": null,
+            "electronicShutter": null,
+            "globalShutter": null,
+            "minBitDepth": null,
+            "maxBitDepth": null,
+            "optimizeFor": null,
+            "rbiFlood": null,
+            "highGain": null,
+            "hdr": null,
+            "exposureTimeSec": 0.1,
+            "targetSnr": null,
+            "targetFullWellFraction": null,
+            "allowCoadding": null,
+            "allowRegistration": null,
+            "filterSpecifierIds": [
+              "V"
+            ]
+          }
+        ],
+        "renderSettings": null
+      },
+      "compatible": {
+        "results": [
+          {
+            "instrumentId": 1,
+            "instrumentUid": "b1c8b3aa-3274-4f65-aeab-31ac23c217c8",
+            "compatible": true,
+            "reasons": []
+          }
+        ]
+      },
+      "observability": {
+        "windows": [
+          {
+            "obsId": 4092,
+            "instrumentId": 1,
+            "instrumentUid": "b1c8b3aa-3274-4f65-aeab-31ac23c217c8",
+            "telescopeId": 1,
+            "telescopeUid": "e5989e71-fc2f-48e4-828e-a19252fdb90d",
+            "requestType": "optical_imaging",
+            "requestId": null,
+            "startsOn": "2026-11-14T10:27:00.000011Z",
+            "endsOn": "2026-11-14T11:03:59.999882Z",
+            "observable": true,
+            "reason": ""
+          },
+          {
+            "obsId": 4092,
+            "instrumentId": 1,
+            "instrumentUid": "b1c8b3aa-3274-4f65-aeab-31ac23c217c8",
+            "telescopeId": 1,
+            "telescopeUid": "e5989e71-fc2f-48e4-828e-a19252fdb90d",
+            "requestType": "optical_imaging",
+            "requestId": null,
+            "startsOn": "2026-11-14T11:03:59.999878Z",
+            "endsOn": "2026-11-14T11:04:59.999878Z",
+            "observable": false,
+            "reason": "Constraints violated: Sun elevation < -10.0 deg; Sun altitude is above optical safety threshold (-10 deg)"
+          }
+        ]
+      },
+      "plan": {
+        "opticalImagingConfigurationPlan": {
+          "selectedFiltersByRequest": {
+            "14026": [
+              {
+                "id": "V",
+                "filterSpecifierType": "filter",
+                "isModifier": false,
+                "centralWavelengthNm": 530.0,
+                "bandpassNm": 78.0,
+                "flatExposureScaler": 0.0530416,
+                "throughputFraction": 0.3,
+                "flatExposureSunElevationCoeffPerDeg": 1.2
+              }
+            ]
+          },
+          "tiles": [],
+          "dither": [],
+          "xFov": 0.24783567640166704,
+          "yFov": 0.24783567640166704,
+          "positionAngleDeg": 0.0,
+          "totalExposures": 5,
+          "totalExposureTimeSec": 0.5,
+          "seriesPlans": []
+        },
+        "constraints": []
+      }
+    },
+    "preflight": {
+      "visible": {
+        "pass": true,
+        "detail": "37 usable min, 10:27-11:04 UTC"
+      },
+      "filters": {
+        "pass": true,
+        "detail": "Venus:V"
+      },
+      "exposure": {
+        "pass": false,
+        "detail": "Venus 0.1s (saturates before min exposure in every filter (t_sat 0.024s))"
+      },
+      "time_budget": {
+        "pass": true,
+        "detail": "needs 2s of 2220s (overhead 0.25s/frame)"
+      },
+      "in_fov": {
+        "pass": true,
+        "detail": "extent 0.1x0.3' vs FOV 14.9x14.9'"
+      },
+      "sky:validate": {
+        "pass": true,
+        "detail": "ok"
+      },
+      "sky:compatible": {
+        "pass": true,
+        "detail": "compatible"
+      },
+      "sky:observable": {
+        "pass": true,
+        "detail": "37 observable min; blocked: Constraints violated: Sun elevation < -10.0 deg; Sun altitude is above optical safety threshold (-10 deg)"
+      },
+      "sky:plan": {
+        "pass": true,
+        "detail": "0 tile(s), 5 exp, 0.5 s exposing, FOV 14.9x14.9'"
+      }
+    }
+  },
+  {
+    "site": "MOREHEAD",
+    "telescope": "Morehead",
+    "instrument_uid": "b1c8b3aa-3274-4f65-aeab-31ac23c217c8",
+    "target": "Mars",
+    "ra_deg": 147.63701,
+    "dec_deg": 15.07744,
+    "window_utc": [
+      "2026-11-14T10:00:00Z",
+      "2026-11-14T11:04:00Z"
+    ],
+    "exposures": [
+      {
+        "for": "Mars",
+        "filter": "U",
+        "exp_s": 0.1,
+        "count": 5
+      }
+    ],
+    "skynetSpec": {
+      "name": "StarGazer MOREHEAD Mars",
+      "startAfter": "2026-11-14T10:00:00Z",
+      "cancelOn": "2026-11-14T11:04:00Z",
+      "target": {
+        "name": "Mars",
+        "position": {
+          "positionType": "fixed",
+          "coordinates": {
+            "coordinateType": "equatorial",
+            "raDeg": 147.637008,
+            "decDeg": 15.07744
+          }
+        }
+      },
+      "opticalImagingConfiguration": {
+        "trackingMode": "sidereal",
+        "ditherStrategy": "none",
+        "temporalOffsetSec": 0.0,
+        "maxTiles": 1,
+        "tileOverlap": 0.0,
+        "minElevationDeg": 10.0,
+        "maxSunElevationDeg": -10.0,
+        "brightnessModel": {
+          "modelType": "source",
+          "isPointSource": true,
+          "magnitudeMag": 0.65,
+          "filterId": "V"
+        },
+        "saturationModel": {
+          "modelType": "source",
+          "isPointSource": true,
+          "magnitudeMag": 0.65,
+          "filterId": "V"
+        }
+      },
+      "requests": [
+        {
+          "requestType": "optical_imaging",
+          "order": 0,
+          "filterSpecifierIds": [
+            "U"
+          ],
+          "exposureTimeSec": 0.1,
+          "sampleCount": 5,
+          "allowBinning": true
+        }
+      ],
+      "instrumentMode": "include",
+      "instrumentUids": [
+        "b1c8b3aa-3274-4f65-aeab-31ac23c217c8"
+      ]
+    },
+    "skynetResponses": {
+      "validate": {
+        "name": "StarGazer MOREHEAD Mars",
+        "interruptLowerPriority": false,
+        "epochCount": 1,
+        "cohesionLevel": "epoch",
+        "sampleOrdering": "request_major",
+        "cadenceKind": "asap",
+        "cadenceLevel": null,
+        "cadenceGapSec": null,
+        "cadencePeriodSec": null,
+        "cadenceCalendarUnit": null,
+        "copiesMode": "single",
+        "copiesCount": null,
+        "coordinationKind": null,
+        "coordinationStartToleranceSec": null,
+        "affinityMigrateAt": "observation",
+        "affinityHandoffAfterSec": null,
+        "interruptRecovery": "resume",
+        "instrumentMode": "include",
+        "instrumentUids": [
+          "b1c8b3aa-3274-4f65-aeab-31ac23c217c8"
+        ],
+        "startAfter": "2026-11-14T10:00:00Z",
+        "cancelOn": "2026-11-14T11:04:00Z",
+        "target": {
+          "status": "active",
+          "isDeleted": false,
+          "name": "Mars",
+          "position": {
+            "positionType": "fixed",
+            "coordinates": {
+              "epoch": null,
+              "coordinateType": "equatorial",
+              "raDeg": 147.637008,
+              "decDeg": 15.07744,
+              "distancePc": 0.0,
+              "pmRaMasPerYear": 0.0,
+              "pmDecMasPerYear": 0.0,
+              "radialVelocityKmPerSec": 0.0
+            }
+          },
+          "positionOffsetXDeg": 0.0,
+          "positionOffsetYDeg": 0.0,
+          "positionOffsetFrame": "icrs_tangent",
+          "positionOffsetReferenceTime": null
+        },
+        "opticalImagingConfiguration": {
+          "imageNormalizationSettingsId": null,
+          "trackingMode": "sidereal",
+          "repointingStrategy": "fov_threshold",
+          "ditherStrategy": "none",
+          "ditherStepSizeDeg": null,
+          "ditherSteps": null,
+          "ditherPositionAngleDeg": null,
+          "recenteringThreshold": null,
+          "temporalOffsetSec": 0.0,
+          "fieldLockedOn": null,
+          "minFovXArcmin": null,
+          "minFovYArcmin": null,
+          "maxFovXArcmin": null,
+          "maxFovYArcmin": null,
+          "positionAngleDeg": null,
+          "minPixelScaleArcsecPerPx": null,
+          "maxPixelScaleArcsecPerPx": null,
+          "minPixelsPerFwhm": null,
+          "maxTiles": 1,
+          "tileOverlap": 0.0,
+          "minElevationDeg": 10.0,
+          "maxElevationDeg": null,
+          "minSunElevationDeg": null,
+          "maxSunElevationDeg": -10.0,
+          "minMoonSeparationDeg": null,
+          "minMoonPhaseFraction": null,
+          "maxMoonPhaseFraction": null,
+          "lunarPhaseDirection": null,
+          "brightnessModelId": null,
+          "saturationModelId": null,
+          "brightnessModel": {
+            "modelType": "source",
+            "isPointSource": true,
+            "magnitudeMag": 0.65,
+            "filterId": "V",
+            "avMag": 0.0,
+            "rv": 3.1,
+            "temporalComponentId": null,
+            "spectralComponentId": null,
+            "temporalComponent": null,
+            "spectralComponent": null
+          },
+          "saturationModel": {
+            "modelType": "source",
+            "isPointSource": true,
+            "magnitudeMag": 0.65,
+            "filterId": "V",
+            "avMag": 0.0,
+            "rv": 3.1,
+            "temporalComponentId": null,
+            "spectralComponentId": null,
+            "temporalComponent": null,
+            "spectralComponent": null
+          }
+        },
+        "radioTrackingConfiguration": null,
+        "radioMappingConfiguration": null,
+        "requests": [
+          {
+            "status": "active",
+            "isDeleted": false,
+            "observationId": null,
+            "observationUid": null,
+            "instrumentMode": "none",
+            "sampleCount": 5,
+            "order": 0,
+            "active": true,
+            "createdOn": null,
+            "modifiedOn": null,
+            "requestType": "optical_imaging",
+            "seriesDurationSec": null,
+            "allowBinning": true,
+            "allowSubframe": null,
+            "allowFastReadout": null,
+            "electronicShutter": null,
+            "globalShutter": null,
+            "minBitDepth": null,
+            "maxBitDepth": null,
+            "optimizeFor": null,
+            "rbiFlood": null,
+            "highGain": null,
+            "hdr": null,
+            "exposureTimeSec": 0.1,
+            "targetSnr": null,
+            "targetFullWellFraction": null,
+            "allowCoadding": null,
+            "allowRegistration": null,
+            "filterSpecifierIds": [
+              "U"
+            ]
+          }
+        ],
+        "renderSettings": null
+      },
+      "compatible": {
+        "results": [
+          {
+            "instrumentId": 1,
+            "instrumentUid": "b1c8b3aa-3274-4f65-aeab-31ac23c217c8",
+            "compatible": true,
+            "reasons": []
+          }
+        ]
+      },
+      "observability": {
+        "windows": [
+          {
+            "obsId": 4095,
+            "instrumentId": 1,
+            "instrumentUid": "b1c8b3aa-3274-4f65-aeab-31ac23c217c8",
+            "telescopeId": 1,
+            "telescopeUid": "e5989e71-fc2f-48e4-828e-a19252fdb90d",
+            "requestType": "optical_imaging",
+            "requestId": null,
+            "startsOn": "2026-11-14T09:59:59.999987Z",
+            "endsOn": "2026-11-14T11:03:59.999761Z",
+            "observable": true,
+            "reason": ""
+          },
+          {
+            "obsId": 4095,
+            "instrumentId": 1,
+            "instrumentUid": "b1c8b3aa-3274-4f65-aeab-31ac23c217c8",
+            "telescopeId": 1,
+            "telescopeUid": "e5989e71-fc2f-48e4-828e-a19252fdb90d",
+            "requestType": "optical_imaging",
+            "requestId": null,
+            "startsOn": "2026-11-14T11:03:59.999758Z",
+            "endsOn": "2026-11-14T11:05:59.999754Z",
+            "observable": false,
+            "reason": "Constraints violated: Sun elevation < -10.0 deg; Sun altitude is above optical safety threshold (-10 deg)"
+          }
+        ]
+      },
+      "plan": {
+        "opticalImagingConfigurationPlan": {
+          "selectedFiltersByRequest": {
+            "14029": [
+              {
+                "id": "U",
+                "filterSpecifierType": "filter",
+                "isModifier": false,
+                "centralWavelengthNm": 360.0,
+                "bandpassNm": 76.0,
+                "flatExposureScaler": 0.484091,
+                "throughputFraction": 0.02,
+                "flatExposureSunElevationCoeffPerDeg": 1.2
+              }
+            ]
+          },
+          "tiles": [],
+          "dither": [],
+          "xFov": 0.24783567640166704,
+          "yFov": 0.24783567640166704,
+          "positionAngleDeg": 0.0,
+          "totalExposures": 5,
+          "totalExposureTimeSec": 0.5,
+          "seriesPlans": []
+        },
+        "constraints": []
+      }
+    },
+    "preflight": {
+      "visible": {
+        "pass": true,
+        "detail": "64 usable min, 10:00-11:04 UTC"
+      },
+      "filters": {
+        "pass": true,
+        "detail": "Mars:U"
+      },
+      "exposure": {
+        "pass": true,
+        "detail": "Mars 0.1s"
+      },
+      "time_budget": {
+        "pass": true,
+        "detail": "needs 2s of 3840s (overhead 0.25s/frame)"
+      },
+      "in_fov": {
+        "pass": true,
+        "detail": "extent 1.1x0.3' vs FOV 14.9x14.9'"
+      },
+      "sky:validate": {
+        "pass": true,
+        "detail": "ok"
+      },
+      "sky:compatible": {
+        "pass": true,
+        "detail": "compatible"
+      },
+      "sky:observable": {
+        "pass": true,
+        "detail": "64 observable min; blocked: Constraints violated: Sun elevation < -10.0 deg; Sun altitude is above optical safety threshold (-10 deg)"
+      },
+      "sky:plan": {
+        "pass": true,
+        "detail": "0 tile(s), 5 exp, 0.5 s exposing, FOV 14.9x14.9'"
+      }
+    }
+  },
+  {
+    "site": "MOREHEAD",
+    "telescope": "Morehead",
+    "instrument_uid": "b1c8b3aa-3274-4f65-aeab-31ac23c217c8",
+    "target": "Jupiter",
+    "ra_deg": 147.88179,
+    "dec_deg": 13.76222,
+    "window_utc": [
+      "2026-11-14T10:00:00Z",
+      "2026-11-14T11:04:00Z"
+    ],
+    "exposures": [
+      {
+        "for": "Jupiter",
+        "filter": "V",
+        "exp_s": 0.1,
+        "count": 5
+      }
+    ],
+    "skynetSpec": {
+      "name": "StarGazer MOREHEAD Jupiter",
+      "startAfter": "2026-11-14T10:00:00Z",
+      "cancelOn": "2026-11-14T11:04:00Z",
+      "target": {
+        "name": "Jupiter",
+        "position": {
+          "positionType": "fixed",
+          "coordinates": {
+            "coordinateType": "equatorial",
+            "raDeg": 147.881789,
+            "decDeg": 13.762222
+          }
+        }
+      },
+      "opticalImagingConfiguration": {
+        "trackingMode": "sidereal",
+        "ditherStrategy": "none",
+        "temporalOffsetSec": 0.0,
+        "maxTiles": 1,
+        "tileOverlap": 0.0,
+        "minElevationDeg": 10.0,
+        "maxSunElevationDeg": -10.0,
+        "brightnessModel": {
+          "modelType": "source",
+          "isPointSource": true,
+          "magnitudeMag": -2.08,
+          "filterId": "V"
+        },
+        "saturationModel": {
+          "modelType": "source",
+          "isPointSource": true,
+          "magnitudeMag": -2.08,
+          "filterId": "V"
+        }
+      },
+      "requests": [
+        {
+          "requestType": "optical_imaging",
+          "order": 0,
+          "filterSpecifierIds": [
+            "V"
+          ],
+          "exposureTimeSec": 0.1,
+          "sampleCount": 5,
+          "allowBinning": true
+        }
+      ],
+      "instrumentMode": "include",
+      "instrumentUids": [
+        "b1c8b3aa-3274-4f65-aeab-31ac23c217c8"
+      ]
+    },
+    "skynetResponses": {
+      "validate": {
+        "name": "StarGazer MOREHEAD Jupiter",
+        "interruptLowerPriority": false,
+        "epochCount": 1,
+        "cohesionLevel": "epoch",
+        "sampleOrdering": "request_major",
+        "cadenceKind": "asap",
+        "cadenceLevel": null,
+        "cadenceGapSec": null,
+        "cadencePeriodSec": null,
+        "cadenceCalendarUnit": null,
+        "copiesMode": "single",
+        "copiesCount": null,
+        "coordinationKind": null,
+        "coordinationStartToleranceSec": null,
+        "affinityMigrateAt": "observation",
+        "affinityHandoffAfterSec": null,
+        "interruptRecovery": "resume",
+        "instrumentMode": "include",
+        "instrumentUids": [
+          "b1c8b3aa-3274-4f65-aeab-31ac23c217c8"
+        ],
+        "startAfter": "2026-11-14T10:00:00Z",
+        "cancelOn": "2026-11-14T11:04:00Z",
+        "target": {
+          "status": "active",
+          "isDeleted": false,
+          "name": "Jupiter",
+          "position": {
+            "positionType": "fixed",
+            "coordinates": {
+              "epoch": null,
+              "coordinateType": "equatorial",
+              "raDeg": 147.881789,
+              "decDeg": 13.762222,
+              "distancePc": 0.0,
+              "pmRaMasPerYear": 0.0,
+              "pmDecMasPerYear": 0.0,
+              "radialVelocityKmPerSec": 0.0
+            }
+          },
+          "positionOffsetXDeg": 0.0,
+          "positionOffsetYDeg": 0.0,
+          "positionOffsetFrame": "icrs_tangent",
+          "positionOffsetReferenceTime": null
+        },
+        "opticalImagingConfiguration": {
+          "imageNormalizationSettingsId": null,
+          "trackingMode": "sidereal",
+          "repointingStrategy": "fov_threshold",
+          "ditherStrategy": "none",
+          "ditherStepSizeDeg": null,
+          "ditherSteps": null,
+          "ditherPositionAngleDeg": null,
+          "recenteringThreshold": null,
+          "temporalOffsetSec": 0.0,
+          "fieldLockedOn": null,
+          "minFovXArcmin": null,
+          "minFovYArcmin": null,
+          "maxFovXArcmin": null,
+          "maxFovYArcmin": null,
+          "positionAngleDeg": null,
+          "minPixelScaleArcsecPerPx": null,
+          "maxPixelScaleArcsecPerPx": null,
+          "minPixelsPerFwhm": null,
+          "maxTiles": 1,
+          "tileOverlap": 0.0,
+          "minElevationDeg": 10.0,
+          "maxElevationDeg": null,
+          "minSunElevationDeg": null,
+          "maxSunElevationDeg": -10.0,
+          "minMoonSeparationDeg": null,
+          "minMoonPhaseFraction": null,
+          "maxMoonPhaseFraction": null,
+          "lunarPhaseDirection": null,
+          "brightnessModelId": null,
+          "saturationModelId": null,
+          "brightnessModel": {
+            "modelType": "source",
+            "isPointSource": true,
+            "magnitudeMag": -2.08,
+            "filterId": "V",
+            "avMag": 0.0,
+            "rv": 3.1,
+            "temporalComponentId": null,
+            "spectralComponentId": null,
+            "temporalComponent": null,
+            "spectralComponent": null
+          },
+          "saturationModel": {
+            "modelType": "source",
+            "isPointSource": true,
+            "magnitudeMag": -2.08,
+            "filterId": "V",
+            "avMag": 0.0,
+            "rv": 3.1,
+            "temporalComponentId": null,
+            "spectralComponentId": null,
+            "temporalComponent": null,
+            "spectralComponent": null
+          }
+        },
+        "radioTrackingConfiguration": null,
+        "radioMappingConfiguration": null,
+        "requests": [
+          {
+            "status": "active",
+            "isDeleted": false,
+            "observationId": null,
+            "observationUid": null,
+            "instrumentMode": "none",
+            "sampleCount": 5,
+            "order": 0,
+            "active": true,
+            "createdOn": null,
+            "modifiedOn": null,
+            "requestType": "optical_imaging",
+            "seriesDurationSec": null,
+            "allowBinning": true,
+            "allowSubframe": null,
+            "allowFastReadout": null,
+            "electronicShutter": null,
+            "globalShutter": null,
+            "minBitDepth": null,
+            "maxBitDepth": null,
+            "optimizeFor": null,
+            "rbiFlood": null,
+            "highGain": null,
+            "hdr": null,
+            "exposureTimeSec": 0.1,
+            "targetSnr": null,
+            "targetFullWellFraction": null,
+            "allowCoadding": null,
+            "allowRegistration": null,
+            "filterSpecifierIds": [
+              "V"
+            ]
+          }
+        ],
+        "renderSettings": null
+      },
+      "compatible": {
+        "results": [
+          {
+            "instrumentId": 1,
+            "instrumentUid": "b1c8b3aa-3274-4f65-aeab-31ac23c217c8",
+            "compatible": true,
+            "reasons": []
+          }
+        ]
+      },
+      "observability": {
+        "windows": [
+          {
+            "obsId": 4098,
+            "instrumentId": 1,
+            "instrumentUid": "b1c8b3aa-3274-4f65-aeab-31ac23c217c8",
+            "telescopeId": 1,
+            "telescopeUid": "e5989e71-fc2f-48e4-828e-a19252fdb90d",
+            "requestType": "optical_imaging",
+            "requestId": null,
+            "startsOn": "2026-11-14T09:59:59.999987Z",
+            "endsOn": "2026-11-14T11:03:59.999761Z",
+            "observable": true,
+            "reason": ""
+          },
+          {
+            "obsId": 4098,
+            "instrumentId": 1,
+            "instrumentUid": "b1c8b3aa-3274-4f65-aeab-31ac23c217c8",
+            "telescopeId": 1,
+            "telescopeUid": "e5989e71-fc2f-48e4-828e-a19252fdb90d",
+            "requestType": "optical_imaging",
+            "requestId": null,
+            "startsOn": "2026-11-14T11:03:59.999758Z",
+            "endsOn": "2026-11-14T11:05:59.999754Z",
+            "observable": false,
+            "reason": "Constraints violated: Sun elevation < -10.0 deg; Sun altitude is above optical safety threshold (-10 deg)"
+          }
+        ]
+      },
+      "plan": {
+        "opticalImagingConfigurationPlan": {
+          "selectedFiltersByRequest": {
+            "14032": [
+              {
+                "id": "V",
+                "filterSpecifierType": "filter",
+                "isModifier": false,
+                "centralWavelengthNm": 530.0,
+                "bandpassNm": 78.0,
+                "flatExposureScaler": 0.0530416,
+                "throughputFraction": 0.3,
+                "flatExposureSunElevationCoeffPerDeg": 1.2
+              }
+            ]
+          },
+          "tiles": [],
+          "dither": [],
+          "xFov": 0.24783567640166704,
+          "yFov": 0.24783567640166704,
+          "positionAngleDeg": 0.0,
+          "totalExposures": 5,
+          "totalExposureTimeSec": 0.5,
+          "seriesPlans": []
+        },
+        "constraints": []
+      }
+    },
+    "preflight": {
+      "visible": {
+        "pass": true,
+        "detail": "64 usable min, 10:00-11:04 UTC"
+      },
+      "filters": {
+        "pass": true,
+        "detail": "Jupiter:V"
+      },
+      "exposure": {
+        "pass": true,
+        "detail": "Jupiter 0.1s"
+      },
+      "time_budget": {
+        "pass": true,
+        "detail": "needs 2s of 3840s (overhead 0.25s/frame)"
+      },
+      "in_fov": {
+        "pass": true,
+        "detail": "extent 0.2x0.1' vs FOV 14.9x14.9'"
+      },
+      "sky:validate": {
+        "pass": true,
+        "detail": "ok"
+      },
+      "sky:compatible": {
+        "pass": true,
+        "detail": "compatible"
+      },
+      "sky:observable": {
+        "pass": true,
+        "detail": "64 observable min; blocked: Constraints violated: Sun elevation < -10.0 deg; Sun altitude is above optical safety threshold (-10 deg)"
+      },
+      "sky:plan": {
+        "pass": true,
+        "detail": "0 tile(s), 5 exp, 0.5 s exposing, FOV 14.9x14.9'"
+      }
+    }
+  }
+]

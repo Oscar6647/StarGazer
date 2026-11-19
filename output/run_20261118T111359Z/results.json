@@ -1,0 +1,1307 @@
+{
+  "run": {
+    "started_utc": "2026-11-18T11:13:59Z",
+    "window_utc": [
+      "2026-11-01T00:00:00Z",
+      "2026-11-20T00:00:00Z"
+    ],
+    "scan_step": "30m",
+    "units": "angles deg, distances km/AU, times UTC ISO 8601, exposures s",
+    "frames": "azi/elev topocentric airless apparent; ra/dec_icrf astrometric J2000"
+  },
+  "config": {
+    "sites": {
+      "GZ01": [
+        130.87521,
+        33.88342,
+        0.0
+      ],
+      "GZ02": [
+        -110.792,
+        38.406,
+        1.332
+      ],
+      "GZ03": [
+        -78.470897,
+        37.238431,
+        0.149
+      ],
+      "GZ04": [
+        20.4111236,
+        67.8407189,
+        0.425
+      ],
+      "GZ05": [
+        -100.19322,
+        25.716058,
+        0.54
+      ],
+      "GZ05B": [
+        -100.247889,
+        25.594833,
+        0.54
+      ],
+      "GZ05C": [
+        -103.4677372,
+        25.5255908,
+        1.25
+      ],
+      "GZ06": [
+        -70.8066909,
+        -30.1695219,
+        2.2
+      ]
+    },
+    "site_instrument": {
+      "GZ01": "GZ01_7D_10mm",
+      "GZ02": "MDRS_WF",
+      "GZ03": "Hampden_Sydney",
+      "GZ04": "IRF_Kiruna_ASC",
+      "GZ05": "GZ05_S25U_UW",
+      "GZ05B": "EOSR_200mm",
+      "GZ05C": "GZ05_S25U_UW",
+      "GZ06": "PROMPT_CTIO6"
+    },
+    "min_elev_deg": 5,
+    "sun_limit_deg": {
+      "Mercury": -4,
+      "Venus": -6,
+      "Mars": -6,
+      "Jupiter": -6
+    }
+  },
+  "failed": {},
+  "A_conjunction": {
+    "GZ01": {
+      "site": "GZ01",
+      "dt": "2026-11-15T21:22:00Z",
+      "date": "2026-Nov-15 21:22",
+      "S_deg": 69.7033,
+      "min_elev": 11.7,
+      "sun_elev": -6.1
+    },
+    "GZ02": {
+      "site": "GZ02",
+      "dt": "2026-11-15T13:36:00Z",
+      "date": "2026-Nov-15 13:36",
+      "S_deg": 69.7323,
+      "min_elev": 11.1,
+      "sun_elev": -6.1
+    },
+    "GZ03": {
+      "site": "GZ03",
+      "dt": "2026-11-15T11:25:00Z",
+      "date": "2026-Nov-15 11:25",
+      "S_deg": 69.7436,
+      "min_elev": 11.2,
+      "sun_elev": -6.0
+    },
+    "GZ04": {
+      "site": "GZ04",
+      "dt": "2026-11-16T06:19:00Z",
+      "date": "2026-Nov-16 06:19",
+      "S_deg": 69.7301,
+      "min_elev": 5.0,
+      "sun_elev": -7.2
+    },
+    "GZ05": {
+      "site": "GZ05",
+      "dt": "2026-11-15T12:34:00Z",
+      "date": "2026-Nov-15 12:34",
+      "S_deg": 69.7376,
+      "min_elev": 11.8,
+      "sun_elev": -6.1
+    },
+    "GZ05B": {
+      "site": "GZ05B",
+      "dt": "2026-11-15T12:34:00Z",
+      "date": "2026-Nov-15 12:34",
+      "S_deg": 69.7376,
+      "min_elev": 11.8,
+      "sun_elev": -6.1
+    },
+    "GZ05C": {
+      "site": "GZ05C",
+      "dt": "2026-11-15T12:47:00Z",
+      "date": "2026-Nov-15 12:47",
+      "S_deg": 69.7364,
+      "min_elev": 11.9,
+      "sun_elev": -6.1
+    },
+    "GZ06": null
+  },
+  "A_optics": {
+    "GZ01": {
+      "reference": "2026-11-15T21:22:00Z",
+      "fits_single_frame": true,
+      "extent_deg": [
+        74.23540219324668,
+        31.305102594792746
+      ],
+      "required_deg": [
+        81.65894241257136,
+        34.43561285427202
+      ],
+      "sampling": [
+        {
+          "planet": "Mercury",
+          "theta_min": 7.748,
+          "theta_peak": 7.749,
+          "theta_max": 7.757,
+          "n_x_peak": 0.087,
+          "n_y_peak": 0.087,
+          "pct_of_FOV_width": 0.002,
+          "quality": "Severely undersampled"
+        },
+        {
+          "planet": "Venus",
+          "theta_min": 49.804,
+          "theta_peak": 49.808,
+          "theta_max": 49.834,
+          "n_x_peak": 0.561,
+          "n_y_peak": 0.56,
+          "pct_of_FOV_width": 0.014,
+          "quality": "Severely undersampled"
+        },
+        {
+          "planet": "Mars",
+          "theta_min": 7.157,
+          "theta_peak": 7.159,
+          "theta_max": 7.159,
+          "n_x_peak": 0.081,
+          "n_y_peak": 0.081,
+          "pct_of_FOV_width": 0.002,
+          "quality": "Severely undersampled"
+        },
+        {
+          "planet": "Jupiter",
+          "theta_min": 37.411,
+          "theta_peak": 37.415,
+          "theta_max": 37.416,
+          "n_x_peak": 0.422,
+          "n_y_peak": 0.421,
+          "pct_of_FOV_width": 0.011,
+          "quality": "Severely undersampled"
+        }
+      ],
+      "exposure": [
+        {
+          "planet": "Mercury",
+          "visible_samples": 43,
+          "mag_eff": 1.997621107998955,
+          "n_pix": 1.0,
+          "Ne_rate": 1951.6484164129358,
+          "B_sky": 24.353058599164953,
+          "t_sat_s": 2.69541639762939,
+          "t_snr_s": 0.21198154693551846,
+          "t_max_s": 2.69541639762939,
+          "ok_alone": true,
+          "t_suggest_s": 0.7558958510303128
+        },
+        {
+          "planet": "Venus",
+          "visible_samples": 61,
+          "mag_eff": -3.912475859107636,
+          "n_pix": 1.0,
+          "Ne_rate": 451274.06012820447,
+          "B_sky": 3.859699678942313,
+          "t_sat_s": 0.024246865953174688,
+          "t_snr_s": 0.0009059008750648534,
+          "t_max_s": 0.024246865953174688,
+          "ok_alone": true,
+          "t_suggest_s": 0.004686710689231964
+        },
+        {
+          "planet": "Mars",
+          "visible_samples": 61,
+          "mag_eff": 0.9281552189667803,
+          "n_pix": 1.0,
+          "Ne_rate": 5226.2230271716635,
+          "B_sky": 3.859699678942313,
+          "t_sat_s": 3.022778960103571,
+          "t_snr_s": 0.07827886523140025,
+          "t_max_s": 3.022778960103571,
+          "ok_alone": true,
+          "t_suggest_s": 0.48643571707087835
+        },
+        {
+          "planet": "Jupiter",
+          "visible_samples": 61,
+          "mag_eff": -1.8694060521558147,
+          "n_pix": 1.0,
+          "Ne_rate": 68740.46214567924,
+          "B_sky": 3.859699678942313,
+          "t_sat_s": 0.2311511665061116,
+          "t_snr_s": 0.005947424166505522,
+          "t_max_s": 0.2311511665061116,
+          "ok_alone": true,
+          "t_suggest_s": 0.03707767567950275
+        }
+      ]
+    },
+    "GZ02": {
+      "reference": "2026-11-15T13:36:00Z",
+      "fits_single_frame": false,
+      "extent_deg": [
+        74.1064247919053,
+        31.34011870508515
+      ],
+      "required_deg": [
+        81.51706727109584,
+        34.47413057559367
+      ],
+      "sampling": [
+        {
+          "planet": "Mercury",
+          "theta_min": 7.82,
+          "theta_peak": 7.824,
+          "theta_max": 7.83,
+          "n_x_peak": 4.248,
+          "n_y_peak": 4.248,
+          "pct_of_FOV_width": 0.141,
+          "quality": "Very limited representation"
+        },
+        {
+          "planet": "Venus",
+          "theta_min": 50.043,
+          "theta_peak": 50.055,
+          "theta_max": 50.074,
+          "n_x_peak": 27.179,
+          "n_y_peak": 27.179,
+          "pct_of_FOV_width": 0.904,
+          "quality": "Better shape representation"
+        },
+        {
+          "planet": "Mars",
+          "theta_min": 7.143,
+          "theta_peak": 7.144,
+          "theta_max": 7.145,
+          "n_x_peak": 3.879,
+          "n_y_peak": 3.879,
+          "pct_of_FOV_width": 0.129,
+          "quality": "Very limited representation"
+        },
+        {
+          "planet": "Jupiter",
+          "theta_min": 37.377,
+          "theta_peak": 37.379,
+          "theta_max": 37.381,
+          "n_x_peak": 20.297,
+          "n_y_peak": 20.297,
+          "pct_of_FOV_width": 0.675,
+          "quality": "Better shape representation"
+        }
+      ],
+      "exposure": [
+        {
+          "planet": "Mercury",
+          "visible_samples": 58,
+          "mag_eff": 2.0181824018597014,
+          "n_pix": 15.564297462930494,
+          "Ne_rate": 4308832.225085627,
+          "B_sky": 23.553073196920074,
+          "t_sat_s": 0.04372849456387572,
+          "t_snr_s": 0.00011834240445511846,
+          "t_max_s": 0.04372849456387572,
+          "ok_alone": true,
+          "t_suggest_s": 0.002274848388330886
+        },
+        {
+          "planet": "Venus",
+          "visible_samples": 61,
+          "mag_eff": -4.039850686984273,
+          "n_pix": 581.989539506441,
+          "Ne_rate": 1141754730.4823105,
+          "B_sky": 3.7329105371336873,
+          "t_sat_s": 0.015440994962915153,
+          "t_snr_s": 1.454970906459502e-06,
+          "t_max_s": 0.015440994962915153,
+          "ok_alone": true,
+          "t_suggest_s": 0.0001498872857777779
+        },
+        {
+          "planet": "Mars",
+          "visible_samples": 61,
+          "mag_eff": 0.872944193421048,
+          "n_pix": 13.189902565394654,
+          "Ne_rate": 12372426.071747707,
+          "B_sky": 3.7329105371336873,
+          "t_sat_s": 0.042213089140013746,
+          "t_snr_s": 4.007118062263898e-05,
+          "t_max_s": 0.042213089140013746,
+          "ok_alone": true,
+          "t_suggest_s": 0.0013005876823840256
+        },
+        {
+          "planet": "Jupiter",
+          "visible_samples": 61,
+          "mag_eff": -1.8642397280028353,
+          "n_pix": 324.9498370192098,
+          "Ne_rate": 153931831.26964992,
+          "B_sky": 3.7329105371336873,
+          "t_sat_s": 0.08417964059297789,
+          "t_snr_s": 8.44392201626315e-06,
+          "t_max_s": 0.08417964059297789,
+          "ok_alone": true,
+          "t_suggest_s": 0.0008430933047558646
+        }
+      ]
+    },
+    "GZ03": {
+      "reference": "2026-11-15T11:25:00Z",
+      "fits_single_frame": false,
+      "extent_deg": [
+        74.0684572486901,
+        31.35451289404046
+      ],
+      "required_deg": [
+        81.47530297355911,
+        34.48996418344451
+      ],
+      "sampling": [
+        {
+          "planet": "Mercury",
+          "theta_min": 7.844,
+          "theta_peak": 7.845,
+          "theta_max": 7.854,
+          "n_x_peak": 19.719,
+          "n_y_peak": 19.731,
+          "pct_of_FOV_width": 0.206,
+          "quality": "Better shape representation"
+        },
+        {
+          "planet": "Venus",
+          "theta_min": 50.122,
+          "theta_peak": 50.125,
+          "theta_max": 50.153,
+          "n_x_peak": 125.985,
+          "n_y_peak": 126.064,
+          "pct_of_FOV_width": 1.316,
+          "quality": "High sampling potential"
+        },
+        {
+          "planet": "Mars",
+          "theta_min": 7.138,
+          "theta_peak": 7.14,
+          "theta_max": 7.14,
+          "n_x_peak": 17.945,
+          "n_y_peak": 17.956,
+          "pct_of_FOV_width": 0.187,
+          "quality": "Better shape representation"
+        },
+        {
+          "planet": "Jupiter",
+          "theta_min": 37.365,
+          "theta_peak": 37.369,
+          "theta_max": 37.37,
+          "n_x_peak": 93.925,
+          "n_y_peak": 93.984,
+          "pct_of_FOV_width": 0.981,
+          "quality": "More useful planetary detail potential"
+        }
+      ],
+      "exposure": [
+        {
+          "planet": "Mercury",
+          "visible_samples": 39,
+          "mag_eff": 2.029808295809993,
+          "n_pix": 326.3569958030293,
+          "Ne_rate": 144793180.5954358,
+          "B_sky": 37.313288677109846,
+          "t_sat_s": 0.03338416048806828,
+          "t_snr_s": 3.9335548018676275e-06,
+          "t_max_s": 0.03338416048806828,
+          "ok_alone": true,
+          "t_suggest_s": 0.0003623788415376379
+        },
+        {
+          "planet": "Venus",
+          "visible_samples": 61,
+          "mag_eff": -3.825754234980985,
+          "n_pix": 12508.249741802807,
+          "Ne_rate": 31840004500.469887,
+          "B_sky": 5.913757721268789,
+          "t_sat_s": 0.010583295195352713,
+          "t_snr_s": 6.70233066513763e-08,
+          "t_max_s": 0.010583295195352713,
+          "ok_alone": true,
+          "t_suggest_s": 2.6633201821413857e-05
+        },
+        {
+          "planet": "Mars",
+          "visible_samples": 61,
+          "mag_eff": 0.8579732358672882,
+          "n_pix": 273.4465956796642,
+          "Ne_rate": 426071153.66136587,
+          "B_sky": 5.913757721268789,
+          "t_sat_s": 0.026291562082241753,
+          "t_snr_s": 1.2854247698200121e-06,
+          "t_max_s": 0.026291562082241753,
+          "ok_alone": true,
+          "t_suggest_s": 0.00018383640862945012
+        },
+        {
+          "planet": "Jupiter",
+          "visible_samples": 61,
+          "mag_eff": -1.8625531371111947,
+          "n_pix": 6953.593794179912,
+          "Ne_rate": 5220266578.771615,
+          "B_sky": 5.913757721268789,
+          "t_sat_s": 0.054458083831817584,
+          "t_snr_s": 3.156889095831815e-07,
+          "t_max_s": 0.054458083831817584,
+          "ok_alone": true,
+          "t_suggest_s": 0.00013111755451828707
+        }
+      ]
+    },
+    "GZ04": {
+      "reference": "2026-11-16T06:19:00Z",
+      "fits_single_frame": true,
+      "extent_deg": [
+        74.42720119726447,
+        31.27926101521827
+      ],
+      "required_deg": [
+        74.42720119726447,
+        31.27926101521827
+      ],
+      "sampling": [
+        {
+          "planet": "Mercury",
+          "theta_min": 7.657,
+          "theta_peak": 7.663,
+          "theta_max": 7.666,
+          "n_x_peak": 0.032,
+          "n_y_peak": 0.032,
+          "pct_of_FOV_width": 0.001,
+          "quality": "Severely undersampled"
+        },
+        {
+          "planet": "Venus",
+          "theta_min": 49.5,
+          "theta_peak": 49.521,
+          "theta_max": 49.531,
+          "n_x_peak": 0.206,
+          "n_y_peak": 0.206,
+          "pct_of_FOV_width": 0.008,
+          "quality": "Severely undersampled"
+        },
+        {
+          "planet": "Mars",
+          "theta_min": 7.176,
+          "theta_peak": 7.176,
+          "theta_max": 7.178,
+          "n_x_peak": 0.03,
+          "n_y_peak": 0.03,
+          "pct_of_FOV_width": 0.001,
+          "quality": "Severely undersampled"
+        },
+        {
+          "planet": "Jupiter",
+          "theta_min": 37.455,
+          "theta_peak": 37.457,
+          "theta_max": 37.46,
+          "n_x_peak": 0.156,
+          "n_y_peak": 0.156,
+          "pct_of_FOV_width": 0.006,
+          "quality": "Severely undersampled"
+        }
+      ],
+      "exposure": [
+        {
+          "planet": "Mercury",
+          "visible_samples": 42,
+          "mag_eff": 1.9356454412094923,
+          "n_pix": 1.0,
+          "Ne_rate": 3795.231567296723,
+          "B_sky": 326.5274941573473,
+          "t_sat_s": 5.8648581528149535,
+          "t_snr_s": 0.1166093637897349,
+          "t_max_s": 5.8648581528149535,
+          "ok_alone": true,
+          "t_suggest_s": 0.826980881228092
+        },
+        {
+          "planet": "Venus",
+          "visible_samples": 61,
+          "mag_eff": -3.4900337908704726,
+          "n_pix": 1.0,
+          "Ne_rate": 561707.1764149284,
+          "B_sky": 51.751120264136574,
+          "t_sat_s": 0.05390387171529175,
+          "t_snr_s": 0.0007278565999381721,
+          "t_max_s": 0.05390387171529175,
+          "ok_alone": true,
+          "t_suggest_s": 0.006263728026518685
+        },
+        {
+          "planet": "Mars",
+          "visible_samples": 61,
+          "mag_eff": 1.0223306548032236,
+          "n_pix": 1.0,
+          "Ne_rate": 8801.652016320413,
+          "B_sky": 51.751120264136574,
+          "t_sat_s": 4.478668944405332,
+          "t_snr_s": 0.046708633732184694,
+          "t_max_s": 4.478668944405332,
+          "ok_alone": true,
+          "t_suggest_s": 0.45737567418036007
+        },
+        {
+          "planet": "Jupiter",
+          "visible_samples": 61,
+          "mag_eff": -1.7135949333519687,
+          "n_pix": 1.0,
+          "Ne_rate": 109379.12113575489,
+          "B_sky": 51.751120264136574,
+          "t_sat_s": 0.35663455314414233,
+          "t_snr_s": 0.0037392122832165717,
+          "t_max_s": 0.35663455314414233,
+          "ok_alone": true,
+          "t_suggest_s": 0.03651756155243707
+        }
+      ]
+    },
+    "GZ05": {
+      "reference": "2026-11-15T12:34:00Z",
+      "fits_single_frame": true,
+      "extent_deg": [
+        74.09137984804232,
+        31.345522172793963
+      ],
+      "required_deg": [
+        81.50051783284657,
+        34.48007439007336
+      ],
+      "sampling": [
+        {
+          "planet": "Mercury",
+          "theta_min": 7.83,
+          "theta_peak": 7.834,
+          "theta_max": 7.84,
+          "n_x_peak": 0.057,
+          "n_y_peak": 0.057,
+          "pct_of_FOV_width": 0.002,
+          "quality": "Severely undersampled"
+        },
+        {
+          "planet": "Venus",
+          "theta_min": 50.075,
+          "theta_peak": 50.088,
+          "theta_max": 50.106,
+          "n_x_peak": 0.364,
+          "n_y_peak": 0.364,
+          "pct_of_FOV_width": 0.013,
+          "quality": "Severely undersampled"
+        },
+        {
+          "planet": "Mars",
+          "theta_min": 7.141,
+          "theta_peak": 7.142,
+          "theta_max": 7.143,
+          "n_x_peak": 0.052,
+          "n_y_peak": 0.052,
+          "pct_of_FOV_width": 0.002,
+          "quality": "Severely undersampled"
+        },
+        {
+          "planet": "Jupiter",
+          "theta_min": 37.372,
+          "theta_peak": 37.375,
+          "theta_max": 37.377,
+          "n_x_peak": 0.272,
+          "n_y_peak": 0.272,
+          "pct_of_FOV_width": 0.01,
+          "quality": "Severely undersampled"
+        }
+      ],
+      "exposure": [
+        {
+          "planet": "Mercury",
+          "visible_samples": 58,
+          "mag_eff": 2.0016414476670743,
+          "n_pix": 1.0,
+          "Ne_rate": 681.4241766727779,
+          "B_sky": 20.45232481177926,
+          "t_sat_s": 2.004984678933292,
+          "t_snr_s": 0.6103559630106783,
+          "t_max_s": 2.004984678933292,
+          "ok_alone": true,
+          "t_suggest_s": 1.10623431267159
+        },
+        {
+          "planet": "Venus",
+          "visible_samples": 61,
+          "mag_eff": -4.107844282690153,
+          "n_pix": 1.0,
+          "Ne_rate": 189326.68479727666,
+          "B_sky": 3.241475036419249,
+          "t_sat_s": 0.019398639811314008,
+          "t_snr_s": 0.0021337075232280246,
+          "t_max_s": 0.019398639811314008,
+          "ok_alone": true,
+          "t_suggest_s": 0.006433585602585184
+        },
+        {
+          "planet": "Mars",
+          "visible_samples": 61,
+          "mag_eff": 0.8491676655341702,
+          "n_pix": 1.0,
+          "Ne_rate": 1969.7315941030004,
+          "B_sky": 3.241475036419249,
+          "t_sat_s": 2.4248330268559357,
+          "t_snr_s": 0.20542533231396012,
+          "t_max_s": 2.4248330268559357,
+          "ok_alone": true,
+          "t_suggest_s": 0.7057776777057676
+        },
+        {
+          "planet": "Jupiter",
+          "visible_samples": 61,
+          "mag_eff": -1.8769979169488473,
+          "n_pix": 1.0,
+          "Ne_rate": 24259.021754798574,
+          "B_sky": 3.241475036419249,
+          "t_sat_s": 0.19683303612083067,
+          "t_snr_s": 0.01665423059287856,
+          "t_max_s": 0.19683303612083067,
+          "ok_alone": true,
+          "t_suggest_s": 0.05725471833703061
+        }
+      ]
+    },
+    "GZ05B": {
+      "reference": "2026-11-15T12:34:00Z",
+      "fits_single_frame": false,
+      "extent_deg": [
+        74.0913793227721,
+        31.345523936470897
+      ],
+      "required_deg": [
+        81.5005172550493,
+        34.48007633011799
+      ],
+      "sampling": [
+        {
+          "planet": "Mercury",
+          "theta_min": 7.83,
+          "theta_peak": 7.834,
+          "theta_max": 7.84,
+          "n_x_peak": 1.418,
+          "n_y_peak": 1.418,
+          "pct_of_FOV_width": 0.021,
+          "quality": "Severely undersampled"
+        },
+        {
+          "planet": "Venus",
+          "theta_min": 50.075,
+          "theta_peak": 50.088,
+          "theta_max": 50.106,
+          "n_x_peak": 9.066,
+          "n_y_peak": 9.066,
+          "pct_of_FOV_width": 0.135,
+          "quality": "Basic disk representation"
+        },
+        {
+          "planet": "Mars",
+          "theta_min": 7.141,
+          "theta_peak": 7.142,
+          "theta_max": 7.143,
+          "n_x_peak": 1.293,
+          "n_y_peak": 1.293,
+          "pct_of_FOV_width": 0.019,
+          "quality": "Severely undersampled"
+        },
+        {
+          "planet": "Jupiter",
+          "theta_min": 37.372,
+          "theta_peak": 37.375,
+          "theta_max": 37.377,
+          "n_x_peak": 6.765,
+          "n_y_peak": 6.765,
+          "pct_of_FOV_width": 0.101,
+          "quality": "Basic disk representation"
+        }
+      ],
+      "exposure": [
+        {
+          "planet": "Mercury",
+          "visible_samples": 58,
+          "mag_eff": 2.0068994310076422,
+          "n_pix": 1.780616422862852,
+          "Ne_rate": 2499017.074985958,
+          "B_sky": 121.6708500606201,
+          "t_sat_s": 0.009751206825152446,
+          "t_snr_s": 0.0001662508747349097,
+          "t_max_s": 0.009751206825152446,
+          "ok_alone": true,
+          "t_suggest_s": 0.0012732425787738233
+        },
+        {
+          "planet": "Venus",
+          "visible_samples": 61,
+          "mag_eff": -4.107653093591987,
+          "n_pix": 64.79534637477678,
+          "Ne_rate": 697573916.7709388,
+          "B_sky": 19.283530198203376,
+          "t_sat_s": 0.0034060768540888756,
+          "t_snr_s": 1.0360857146946451e-06,
+          "t_max_s": 0.0034060768540888756,
+          "ok_alone": true,
+          "t_suggest_s": 5.940528235496875e-05
+        },
+        {
+          "planet": "Mars",
+          "visible_samples": 61,
+          "mag_eff": 0.8491308495279877,
+          "n_pix": 1.5121537634438125,
+          "Ne_rate": 7258997.6553071495,
+          "B_sky": 19.283530198203376,
+          "t_sat_s": 0.009963459079737004,
+          "t_snr_s": 5.691845689311793e-05,
+          "t_max_s": 0.009963459079737004,
+          "ok_alone": true,
+          "t_suggest_s": 0.0007530635538494445
+        },
+        {
+          "planet": "Jupiter",
+          "visible_samples": 61,
+          "mag_eff": -1.8770449112881047,
+          "n_pix": 36.14397514667075,
+          "Ne_rate": 89401943.5961673,
+          "B_sky": 19.283530198203376,
+          "t_sat_s": 0.01930588723166511,
+          "t_snr_s": 6.850157080013941e-06,
+          "t_max_s": 0.01930588723166511,
+          "ok_alone": true,
+          "t_suggest_s": 0.00036365967621657135
+        }
+      ]
+    },
+    "GZ05C": {
+      "reference": "2026-11-15T12:47:00Z",
+      "fits_single_frame": true,
+      "extent_deg": [
+        74.09142142844715,
+        31.34545786073113
+      ],
+      "required_deg": [
+        81.50056357129186,
+        34.48000364680424
+      ],
+      "sampling": [
+        {
+          "planet": "Mercury",
+          "theta_min": 7.83,
+          "theta_peak": 7.832,
+          "theta_max": 7.84,
+          "n_x_peak": 0.057,
+          "n_y_peak": 0.057,
+          "pct_of_FOV_width": 0.002,
+          "quality": "Severely undersampled"
+        },
+        {
+          "planet": "Venus",
+          "theta_min": 50.075,
+          "theta_peak": 50.081,
+          "theta_max": 50.105,
+          "n_x_peak": 0.364,
+          "n_y_peak": 0.364,
+          "pct_of_FOV_width": 0.013,
+          "quality": "Severely undersampled"
+        },
+        {
+          "planet": "Mars",
+          "theta_min": 7.141,
+          "theta_peak": 7.142,
+          "theta_max": 7.143,
+          "n_x_peak": 0.052,
+          "n_y_peak": 0.052,
+          "pct_of_FOV_width": 0.002,
+          "quality": "Severely undersampled"
+        },
+        {
+          "planet": "Jupiter",
+          "theta_min": 37.372,
+          "theta_peak": 37.376,
+          "theta_max": 37.377,
+          "n_x_peak": 0.272,
+          "n_y_peak": 0.272,
+          "pct_of_FOV_width": 0.01,
+          "quality": "Severely undersampled"
+        }
+      ],
+      "exposure": [
+        {
+          "planet": "Mercury",
+          "visible_samples": 45,
+          "mag_eff": 1.990021580790541,
+          "n_pix": 1.0,
+          "Ne_rate": 688.7561422399559,
+          "B_sky": 20.45232481177926,
+          "t_sat_s": 2.226975995668729,
+          "t_snr_s": 0.6036738314804704,
+          "t_max_s": 2.226975995668729,
+          "ok_alone": true,
+          "t_suggest_s": 1.1594684695671449
+        },
+        {
+          "planet": "Venus",
+          "visible_samples": 61,
+          "mag_eff": -3.9737244745273848,
+          "n_pix": 1.0,
+          "Ne_rate": 167326.1840899439,
+          "B_sky": 3.241475036419249,
+          "t_sat_s": 0.020065479961005692,
+          "t_snr_s": 0.0024142586715475774,
+          "t_max_s": 0.020065479961005692,
+          "ok_alone": true,
+          "t_suggest_s": 0.006960119179627755
+        },
+        {
+          "planet": "Mars",
+          "visible_samples": 61,
+          "mag_eff": 0.8520292215196262,
+          "n_pix": 1.0,
+          "Ne_rate": 1964.547023504535,
+          "B_sky": 3.241475036419249,
+          "t_sat_s": 2.4276803435293735,
+          "t_snr_s": 0.2059683661898537,
+          "t_max_s": 2.4276803435293735,
+          "ok_alone": true,
+          "t_suggest_s": 0.7071247089361026
+        },
+        {
+          "planet": "Jupiter",
+          "visible_samples": 61,
+          "mag_eff": -1.8741397995807973,
+          "n_pix": 1.0,
+          "Ne_rate": 24195.245718390466,
+          "B_sky": 3.241475036419249,
+          "t_sat_s": 0.19683075526274357,
+          "t_snr_s": 0.01669813527762321,
+          "t_max_s": 0.19683075526274357,
+          "ok_alone": true,
+          "t_suggest_s": 0.057329805321264075
+        }
+      ]
+    }
+  },
+  "B_plans": [
+    {
+      "start_utc": "2026-11-10T11:30:00Z",
+      "span_s": 0.0,
+      "slots": [
+        {
+          "index": 0,
+          "name": "Mercury",
+          "site": "GZ03",
+          "instrument": "Hampden_Sydney",
+          "dt": "2026-11-10T11:30:00Z",
+          "azi": 111.606226,
+          "elev": 7.593208,
+          "sun_elev": -4.165591
+        },
+        {
+          "index": 48,
+          "name": "Venus",
+          "site": "GZ05",
+          "instrument": "GZ05_S25U_UW",
+          "dt": "2026-11-10T11:30:00Z",
+          "azi": 105.225924,
+          "elev": 5.21989,
+          "sun_elev": -19.382047
+        },
+        {
+          "index": 414,
+          "name": "Mars",
+          "site": "GZ05",
+          "instrument": "GZ05_S25U_UW",
+          "dt": "2026-11-10T11:30:00Z",
+          "azi": 109.600794,
+          "elev": 65.164285,
+          "sun_elev": -19.382047
+        },
+        {
+          "index": 394,
+          "name": "Jupiter",
+          "site": "GZ05",
+          "instrument": "GZ05_S25U_UW",
+          "dt": "2026-11-10T11:30:00Z",
+          "azi": 111.217779,
+          "elev": 62.886298,
+          "sun_elev": -19.382047
+        }
+      ]
+    },
+    {
+      "start_utc": "2026-11-10T12:30:00Z",
+      "span_s": 0.0,
+      "slots": [
+        {
+          "index": 1,
+          "name": "Mercury",
+          "site": "GZ05",
+          "instrument": "GZ05_S25U_UW",
+          "dt": "2026-11-10T12:30:00Z",
+          "azi": 106.570041,
+          "elev": 5.983797,
+          "sun_elev": -6.235436
+        },
+        {
+          "index": 50,
+          "name": "Venus",
+          "site": "GZ05B",
+          "instrument": "EOSR_200mm",
+          "dt": "2026-11-10T12:30:00Z",
+          "azi": 112.617589,
+          "elev": 18.044983,
+          "sun_elev": -6.249073
+        },
+        {
+          "index": 416,
+          "name": "Mars",
+          "site": "GZ05B",
+          "instrument": "EOSR_200mm",
+          "dt": "2026-11-10T12:30:00Z",
+          "azi": 137.644825,
+          "elev": 76.672881,
+          "sun_elev": -6.249073
+        },
+        {
+          "index": 396,
+          "name": "Jupiter",
+          "site": "GZ05B",
+          "instrument": "EOSR_200mm",
+          "dt": "2026-11-10T12:30:00Z",
+          "azi": 136.963746,
+          "elev": 74.306836,
+          "sun_elev": -6.249073
+        }
+      ]
+    },
+    {
+      "start_utc": "2026-11-10T13:30:00Z",
+      "span_s": 0.0,
+      "slots": [
+        {
+          "index": 2,
+          "name": "Mercury",
+          "site": "GZ02",
+          "instrument": "MDRS_WF",
+          "dt": "2026-11-10T13:30:00Z",
+          "azi": 110.286194,
+          "elev": 5.578412,
+          "sun_elev": -6.283917
+        },
+        {
+          "index": 52,
+          "name": "Venus",
+          "site": "GZ02",
+          "instrument": "MDRS_WF",
+          "dt": "2026-11-10T13:30:00Z",
+          "azi": 119.054768,
+          "elev": 15.902236,
+          "sun_elev": -6.283917
+        },
+        {
+          "index": 418,
+          "name": "Mars",
+          "site": "GZ02",
+          "instrument": "MDRS_WF",
+          "dt": "2026-11-10T13:30:00Z",
+          "azi": 168.259859,
+          "elev": 66.673043,
+          "sun_elev": -6.283917
+        },
+        {
+          "index": 398,
+          "name": "Jupiter",
+          "site": "GZ02",
+          "instrument": "MDRS_WF",
+          "dt": "2026-11-10T13:30:00Z",
+          "azi": 165.188731,
+          "elev": 64.68158,
+          "sun_elev": -6.283917
+        }
+      ]
+    }
+  ],
+  "C_optics": {
+    "GZ03": {
+      "reference": "2026-11-10T11:30:00Z",
+      "fits_single_frame": false,
+      "extent_deg": [
+        77.66782007429461,
+        33.96057277908473
+      ],
+      "required_deg": [
+        85.43460208172408,
+        37.356630056993204
+      ],
+      "sampling": [
+        {
+          "planet": "Mercury",
+          "theta_min": 9.059,
+          "theta_peak": 9.064,
+          "theta_max": 9.069,
+          "n_x_peak": 22.782,
+          "n_y_peak": 22.797,
+          "pct_of_FOV_width": 0.238,
+          "quality": "Better shape representation"
+        },
+        {
+          "planet": "Venus",
+          "theta_min": 53.877,
+          "theta_peak": 53.891,
+          "theta_max": 53.906,
+          "n_x_peak": 135.452,
+          "n_y_peak": 135.537,
+          "pct_of_FOV_width": 1.415,
+          "quality": "High sampling potential"
+        },
+        {
+          "planet": "Mars",
+          "theta_min": 6.915,
+          "theta_peak": 6.916,
+          "theta_max": 6.917,
+          "n_x_peak": 17.384,
+          "n_y_peak": 17.395,
+          "pct_of_FOV_width": 0.182,
+          "quality": "Better shape representation"
+        },
+        {
+          "planet": "Jupiter",
+          "theta_min": 36.821,
+          "theta_peak": 36.823,
+          "theta_max": 36.825,
+          "n_x_peak": 92.553,
+          "n_y_peak": 92.611,
+          "pct_of_FOV_width": 0.967,
+          "quality": "More useful planetary detail potential"
+        }
+      ],
+      "exposure": [
+        {
+          "planet": "Mercury",
+          "visible_samples": 44,
+          "mag_eff": 3.500902973651751,
+          "n_pix": 428.46683955311624,
+          "Ne_rate": 37351688.32149746,
+          "B_sky": 37.313288677109846,
+          "t_sat_s": 0.16237761967440417,
+          "t_snr_s": 1.62907556141729e-05,
+          "t_max_s": 0.16237761967440417,
+          "ok_alone": true,
+          "t_suggest_s": 0.0016264237207218885
+        },
+        {
+          "planet": "Venus",
+          "visible_samples": 61,
+          "mag_eff": -3.7908042401455657,
+          "n_pix": 14447.114779669793,
+          "Ne_rate": 30831391253.059544,
+          "B_sky": 5.913757721268789,
+          "t_sat_s": 0.013499181647207207,
+          "t_snr_s": 7.385414335723938e-08,
+          "t_max_s": 0.013499181647207207,
+          "ok_alone": true,
+          "t_suggest_s": 3.15748396128667e-05
+        },
+        {
+          "planet": "Mars",
+          "visible_samples": 61,
+          "mag_eff": 0.9429885611477761,
+          "n_pix": 257.92206132103695,
+          "Ne_rate": 393981656.6267338,
+          "B_sky": 5.913757721268789,
+          "t_sat_s": 0.026333157604190856,
+          "t_snr_s": 1.3731123516877828e-06,
+          "t_max_s": 0.026333157604190856,
+          "ok_alone": true,
+          "t_suggest_s": 0.00019015357994330668
+        },
+        {
+          "planet": "Jupiter",
+          "visible_samples": 61,
+          "mag_eff": -1.8341319817573567,
+          "n_pix": 6753.133066385885,
+          "Ne_rate": 5085389466.739411,
+          "B_sky": 5.913757721268789,
+          "t_sat_s": 0.05440599358579312,
+          "t_snr_s": 3.200077538067948e-07,
+          "t_max_s": 0.05440599358579312,
+          "ok_alone": true,
+          "t_suggest_s": 0.00013194824667655324
+        }
+      ]
+    },
+    "GZ05": {
+      "reference": "2026-11-10T11:30:00Z",
+      "fits_single_frame": true,
+      "extent_deg": [
+        77.66735198388587,
+        33.95982349140963
+      ],
+      "required_deg": [
+        85.43408718227445,
+        37.355805840550595
+      ],
+      "sampling": [
+        {
+          "planet": "Mercury",
+          "theta_min": 9.059,
+          "theta_peak": 9.064,
+          "theta_max": 9.069,
+          "n_x_peak": 0.066,
+          "n_y_peak": 0.066,
+          "pct_of_FOV_width": 0.002,
+          "quality": "Severely undersampled"
+        },
+        {
+          "planet": "Venus",
+          "theta_min": 53.875,
+          "theta_peak": 53.89,
+          "theta_max": 53.904,
+          "n_x_peak": 0.392,
+          "n_y_peak": 0.392,
+          "pct_of_FOV_width": 0.014,
+          "quality": "Severely undersampled"
+        },
+        {
+          "planet": "Mars",
+          "theta_min": 6.915,
+          "theta_peak": 6.916,
+          "theta_max": 6.917,
+          "n_x_peak": 0.05,
+          "n_y_peak": 0.05,
+          "pct_of_FOV_width": 0.002,
+          "quality": "Severely undersampled"
+        },
+        {
+          "planet": "Jupiter",
+          "theta_min": 36.821,
+          "theta_peak": 36.823,
+          "theta_max": 36.825,
+          "n_x_peak": 0.268,
+          "n_y_peak": 0.268,
+          "pct_of_FOV_width": 0.01,
+          "quality": "Severely undersampled"
+        }
+      ],
+      "exposure": [
+        {
+          "planet": "Mercury",
+          "visible_samples": 0,
+          "mag_eff": null,
+          "n_pix": null,
+          "Ne_rate": null,
+          "B_sky": 20.45232481177926,
+          "t_sat_s": null,
+          "t_snr_s": null,
+          "t_max_s": null,
+          "ok_alone": false,
+          "t_suggest_s": null
+        },
+        {
+          "planet": "Venus",
+          "visible_samples": 32,
+          "mag_eff": -2.623445510984678,
+          "n_pix": 1.0,
+          "Ne_rate": 48245.0012033128,
+          "B_sky": 3.241475036419249,
+          "t_sat_s": 0.036216263684889956,
+          "t_snr_s": 0.00837368029235602,
+          "t_max_s": 0.036216263684889956,
+          "ok_alone": true,
+          "t_suggest_s": 0.017414459896331325
+        },
+        {
+          "planet": "Mars",
+          "visible_samples": 61,
+          "mag_eff": 0.9590047217068816,
+          "n_pix": 1.0,
+          "Ne_rate": 1780.2140671886953,
+          "B_sky": 3.241475036419249,
+          "t_sat_s": 2.5946600311218506,
+          "t_snr_s": 0.22733463025394446,
+          "t_max_s": 2.5946600311218506,
+          "ok_alone": true,
+          "t_suggest_s": 0.7680208843578239
+        },
+        {
+          "planet": "Jupiter",
+          "visible_samples": 61,
+          "mag_eff": -1.8161447228811605,
+          "n_pix": 1.0,
+          "Ne_rate": 22936.756619127864,
+          "B_sky": 3.241475036419249,
+          "t_sat_s": 0.2043487204214831,
+          "t_snr_s": 0.01761445588693546,
+          "t_max_s": 0.2043487204214831,
+          "ok_alone": true,
+          "t_suggest_s": 0.05999576252883133
+        }
+      ]
+    }
+  },
+  "observations": [
+    {
+      "planet": "Venus",
+      "source": "Skynet",
+      "telescope": "PROMPT-CTIO-6",
+      "observation": "venus #aff7b27c",
+      "time_utc": "2026-11-15T08:51Z",
+      "filter": "V",
+      "exposure_s": 0.1,
+      "status": "delivered",
+      "note": "crescent; JPL: 13.7% lit, 50.2 arcsec, alt 10.0 deg, airmass 5.5",
+      "image": "assets/venus_ctio6_20261115.png"
+    },
+    {
+      "planet": "Venus",
+      "source": "Skynet",
+      "telescope": "PROMPT-CTIO-6",
+      "observation": "venus #aff7b27c",
+      "time_utc": "2026-11-17T08:47Z",
+      "filter": "V",
+      "exposure_s": 0.1,
+      "status": "failed",
+      "note": "blank frame (raw and reduced): no Venus light. JPL check: Venus alt 10.4 deg, az 95.4, Sun -10.7 -> geometry OK; likely dome/east horizon at the 10 deg limit"
+    },
+    {
+      "planet": "Jupiter",
+      "source": "Skynet",
+      "telescope": null,
+      "observation": "jupiter",
+      "time_utc": null,
+      "filter": "V",
+      "exposure_s": null,
+      "status": "delivered",
+      "note": "disk + 3 moons, saturated"
+    },
+    {
+      "planet": "Mars",
+      "source": "Skynet",
+      "telescope": null,
+      "observation": "mars",
+      "time_utc": null,
+      "filter": "V",
+      "exposure_s": null,
+      "status": "delivered",
+      "note": "saturated point"
+    },
+    {
+      "planet": "Mercury",
+      "source": "GZ05 camera",
+      "telescope": null,
+      "observation": null,
+      "time_utc": null,
+      "filter": null,
+      "exposure_s": null,
+      "status": "pending",
+      "note": "Skynet impossible (Sun <= -10 limit)"
+    }
+  ]
+}
