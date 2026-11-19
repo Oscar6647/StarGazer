@@ -12,7 +12,7 @@
   [![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/Oscar6647/StarGazer)
   [![GitHub Issues](https://img.shields.io/github/issues/Oscar6647/StarGazer.svg)](https://github.com/Oscar6647/StarGazer/issues)
   [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Oscar6647/StarGazer.svg)](https://github.com/Oscar6647/StarGazer/pulls)
-  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+  [![License](https://img.shields.io/badge/license-PolyForm%20Strict%201.0.0-blue.svg)](/LICENSE)
 
 </div>
 
