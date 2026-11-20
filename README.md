@@ -29,6 +29,7 @@ Other suggested Contents by the Template
 - [Usage](#usage)
 - [TODO](../TODO.md)
 - [Acknowledgments](#acknowledgement)
+- [Contributing](../CONTRIBUTING.md)
 -->
 ## 📝 Table of Contents
 - [About](#about)
@@ -36,7 +37,7 @@ Other suggested Contents by the Template
   - [Prerequisites](#Prerequisites)
   - [Installing](#Installing)
 - [Built Using](#built_using)
-- [Contributing](../CONTRIBUTING.md)
+
 - [Authors](#authors)
 
 
