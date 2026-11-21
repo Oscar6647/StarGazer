@@ -37,7 +37,6 @@ Other suggested Contents by the Template
   - [Prerequisites](#Prerequisites)
   - [Installing](#Installing)
 - [Built Using](#built_using)
-
 - [Authors](#authors)
 
 
